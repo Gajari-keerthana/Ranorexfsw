@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.89s"
+		durationms="4889"
+		type="root"
+		rid="126c48edb85ae78c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/14/2023 3:28:55 PM"
+		timestampiso="2023-11-14T09:58:55"
+		endtime="11/14/2023 3:28:59 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Directionalitycheck">
+		<detail>
+			Directionalitycheck
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.644"
+			timeRelativeToTestModuleStartTime="00:03.644"
+			timeWallClock="15:28:58"
+			time="00:03.644"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Window.Expander' at 9;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+				itempath="tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander"
+				id="ec9fa989101f4b48854143417c6dc3e1"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.887"
+			timeRelativeToTestModuleStartTime="00:04.887"
+			timeWallClock="15:28:59"
+			time="00:04.887"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

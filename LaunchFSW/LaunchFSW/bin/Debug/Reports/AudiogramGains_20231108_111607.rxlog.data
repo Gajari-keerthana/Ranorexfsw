@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="24.81s"
+		durationms="24806"
+		type="root"
+		rid="b45262b479e5a6"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/8/2023 11:16:10 AM"
+		timestampiso="2023-11-08T05:46:10"
+		endtime="11/8/2023 11:16:35 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AudiogramGains">
+		<detail>
+			AudiogramGains
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.686"
+			timeRelativeToTestModuleStartTime="00:03.686"
+			timeWallClock="11:16:14"
+			time="00:03.686"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey down}{LShiftKey down}{LMenu down}{Tkey}{LMenu up}{LShiftKey up}{LControlKey up}' with focus on 'WindowAutomationIdsStandAloneShell'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']"
+				itempath="/form[@name='ReSound Smart Fit 1.17']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Self"
+				id="b9d4415a519a4376a30dbb92f0511cbd"
+				timeout="30000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

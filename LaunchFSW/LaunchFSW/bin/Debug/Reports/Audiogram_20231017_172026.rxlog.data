@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="17.66s"
+		durationms="17661"
+		type="root"
+		rid="2b586d8d246a8694"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/17/2023 5:20:28 PM"
+		timestampiso="2023-10-17T11:50:28"
+		endtime="10/17/2023 5:20:46 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Audiogram">
+		<detail>
+			Audiogram
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.662"
+			timeRelativeToTestModuleStartTime="00:03.662"
+			timeWallClock="17:20:32"
+			time="00:03.662"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.Text' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.DetailsAutomationIds.AudiogramAction']/?/?/text[@automationid='Text']"
+				itempath="?/?/listitem[@automationid='StandAloneAutomationIds.DetailsAutomationIds.AudiogramAction']/?/?/text[@automationid='Text']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Text"
+				id="51f143a31df04734b387d3ffc3af29b5"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Audiogram.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.734"
+			timeRelativeToTestModuleStartTime="00:06.734"
+			timeWallClock="17:20:35"
+			time="00:06.734"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Audiogram.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.740"
+			timeRelativeToTestModuleStartTime="00:11.740"
+			timeWallClock="17:20:40"
+			time="00:11.740"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.ContentTextBlock' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/container[1]/text[27]"
+				itempath="container[1]/text[27]"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.ContentTextBlock"
+				id="9007027886eb4ad8abf6e31d5669d47b"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Audiogram.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.640"
+			timeRelativeToTestModuleStartTime="00:13.640"
+			timeWallClock="17:20:42"
+			time="00:13.640"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}' with focus on 'WindowAutomationIdsStandAloneShell'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']"
+				itempath="/form[@name='ReSound Smart Fit 1.17']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Self"
+				id="b9d4415a519a4376a30dbb92f0511cbd"
+				timeout="30000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Audiogram.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.571"
+			timeRelativeToTestModuleStartTime="00:14.571"
+			timeWallClock="17:20:43"
+			time="00:14.571"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.TextBlock' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/text[1]"
+				itempath="text[1]"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.TextBlock"
+				id="fe78837768504f4cbaa2f8d3f3bcb162"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Audiogram.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.157"
+			timeRelativeToTestModuleStartTime="00:15.157"
+			timeWallClock="17:20:43"
+			time="00:15.157"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.TextBlock' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/text[1]"
+				itempath="text[1]"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.TextBlock"
+				id="fe78837768504f4cbaa2f8d3f3bcb162"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Audiogram.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.725"
+			timeRelativeToTestModuleStartTime="00:15.725"
+			timeWallClock="17:20:44"
+			time="00:15.725"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.Text1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='Fit Patient']"
+				itempath="?/?/text[@name='Fit Patient']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Text1"
+				id="144a17b0aa3945debf4fb576728c90e7"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Audiogram.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

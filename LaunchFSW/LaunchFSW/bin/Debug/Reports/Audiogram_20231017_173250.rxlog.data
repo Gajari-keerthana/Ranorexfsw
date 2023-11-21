@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="43.29s"
+		durationms="43289"
+		type="root"
+		rid="259f42ae92437185"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/17/2023 5:32:53 PM"
+		timestampiso="2023-10-17T12:02:53"
+		endtime="10/17/2023 5:33:36 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Audiogram">
+		<detail>
+			Audiogram
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.468"
+			timeRelativeToTestModuleStartTime="00:04.468"
+			timeWallClock="17:32:57"
+			time="00:04.468"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.Text' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.DetailsAutomationIds.AudiogramAction']/?/?/text[@automationid='Text']"
+				itempath="?/?/listitem[@automationid='StandAloneAutomationIds.DetailsAutomationIds.AudiogramAction']/?/?/text[@automationid='Text']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Text"
+				id="51f143a31df04734b387d3ffc3af29b5"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Audiogram.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.286"
+			timeRelativeToTestModuleStartTime="00:43.286"
+			timeWallClock="17:33:36"
+			time="00:43.286"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

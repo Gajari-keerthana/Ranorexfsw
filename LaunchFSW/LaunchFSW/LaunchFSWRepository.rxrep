@@ -1,0 +1,1099 @@
+﻿<repository
+id="734ab302-98e2-4bc5-850b-c001f7726161"
+name="LaunchFSWRepository">
+	<codegen
+	classname="LaunchFSWRepository"
+	namespace="LaunchFSW">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="bf05e781-27b0-430f-9b85-cc0db488c5ce"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="b9d4415a-519a-4376-a30d-bb92f0511cbd"
+		isrooted="True"
+		name="Directionality"
+		refimgid="f2afa125-71c1-4407-8810-389fd1730051"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="cc32451e-c69a-46dd-9edc-321ab4b650d9"
+			name="StandAloneAutomationIdsProfileAutomatio"
+			refimgid="7dc2a36f-cb06-4e29-bd4c-964959072cd0"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.LastNameField']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.LastNameField']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="1e0c93c9-9477-48f9-9032-385447cc6a24"
+			name="StandAloneAutomationIdsProfileAutomatio1"
+			refimgid="8b6d2919-15c0-4733-8e62-59065be6c1f8"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.FirstNameField']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.FirstNameField']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="836c2fbb-932f-413c-bef1-e63fc60abfad"
+			name="StandAloneAutomationIdsAdd2Action"
+			refimgid="de0b11f1-43d8-4b8d-b9bc-2dc8b5fed9f0"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.Add2Action']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.Add2Action']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="51f143a3-1df0-4734-b387-d3ffc3af29b5"
+			name="Text"
+			refimgid="d3c0c0c0-b8dc-4516-908a-ce84cd31da21"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']//text[@name='Audiogram']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.DetailsAutomationIds.AudiogramAction']/?/?/text[@automationid='Text']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="90070278-86eb-4ad8-abf6-e31d5669d47b"
+			name="ContentTextBlock"
+			refimgid="f6b6d6ee-9105-47e4-87a3-62fa52764348"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/container[1]/text[27]"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/container[1]/text[27]
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="84546401-03d4-4bff-85d0-2adcd0a2157e"
+			name="StandAloneAutomationIdsAudiogramAutomat"
+			refimgid="d3ade816-017e-4776-876f-dab49a414c33"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CopyRightAction']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CopyRightAction']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="f20ffcb6-95de-4c0b-83eb-266b9e7a134e"
+			name="ContentTextBlock1"
+			refimgid="0c6c5150-24f1-4483-ac8f-57952a4835d3"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='All']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='All']
+			</item>
+			<item
+			addcaps="menuitem,uiautomation"
+			capname="menuitem"
+			id="7a87dcaa-fa41-47a7-9a6a-b9967893f094"
+			name="MenuAutomationIdsViewAction"
+			refimgid="c1ebd7be-9092-4180-9937-d018b1999d45"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/menuitem[@automationid='MenuAutomationIds.ViewAction']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/menuitem[@automationid='MenuAutomationIds.ViewAction']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="00b33339-f95d-46d6-9907-a5beb04cbe08"
+			name="StandAloneAutomationIdsDetailsAutomatio1"
+			refimgid="15089685-b166-4e51-8d0c-26b4d59eb16c"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.FitAction']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.FitAction']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="ae7293b6-3b45-46e9-a591-00714a2dcd18"
+			name="Text1"
+			refimgid="c72c6012-3bc2-4107-94e1-f0b0719a8672"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='Fit Patient']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='Fit Patient']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="bbb91551-0ce8-4738-94b6-5da061d7d504"
+			name="Text2"
+			refimgid="08062577-8add-4868-83c7-496f88f045e7"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/text[@name='Physical Properties']"
+			searchtimeout="10000ms">
+				/form[@name='ReSound Smart Fit 1.17']/text[@name='Physical Properties']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="0e429078-8f8c-4b58-ac1b-9ff83b5dcc8d"
+			name="StateMachineAutomationIdsContinueAction"
+			refimgid="27e0cbc7-14f0-4292-8a0e-121d1e6b876b"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StateMachineAutomationIds.ContinueAction']"
+			searchtimeout="10000ms">
+				/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StateMachineAutomationIds.ContinueAction']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="f3a1ef92-d0b8-4d54-ae8c-afd1ff9a91e1"
+			name="ContentTextBlock2"
+			refimgid="795a3ec5-f9f7-43db-a0af-89aa381f16d5"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='250']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='250']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="44890dbd-7b4e-45d5-b8a4-9bfb248f1687"
+			name="ContentTextBlock3"
+			refimgid="a4ccba9c-cdff-4a31-a844-a406f9e7bdf8"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='500']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='500']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="f56f212f-d437-40f4-97a2-0522b4518cc9"
+			name="ContentTextBlock4"
+			refimgid="5f517002-4760-4721-b581-d6a786b766aa"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='750']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='750']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="99e625bd-bdbc-4873-91fc-330505f4e258"
+			name="ContentTextBlock5"
+			refimgid="c67cc6b8-dfeb-46a8-b5a2-b83e25a4e4bc"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='1K']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='1K']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="6cd95ed5-8b6f-4f81-8883-3251238ba467"
+			name="ContentTextBlock6"
+			refimgid="ddf0f04a-7e52-4c32-907a-9556fd7ac391"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='1.5K']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='1.5K']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="7b39ac52-0722-485a-ba98-192c723288ca"
+			name="ContentTextBlock7"
+			refimgid="d12f848f-e1c9-4848-aa99-241ce8b62539"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='2K']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='2K']
+			</item>
+			<item
+			addcaps="radiobutton,uiautomation"
+			capname="radiobutton"
+			id="f3bd29c0-b8b0-43a1-affa-7aa0b162eaa4"
+			name="NavigationAutomationIdsMainAutomationId"
+			refimgid="cf7404d9-c19b-47b0-8392-0463c2780e0a"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']//radiobutton[@automationid='NavigationAutomationIds.MainAutomationIds.AdvancedFeatures']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/list[3]/?/?/radiobutton[@automationid='NavigationAutomationIds.MainAutomationIds.AdvancedFeatures']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="c3e79d8e-5cff-4c00-8e0f-d4c8fd9880ef"
+			name="ContentTextBlock9"
+			refimgid="05ea1315-d591-4138-a1dc-ac1dc43107c3"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='4K']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='4K']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="3f3c9ac6-9cd2-4dfe-9861-83007afa7830"
+			name="ContentTextBlock10"
+			refimgid="26bbca12-8a39-4f35-9432-17964ad9c2f7"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='6K']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='6K']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="6265f4cf-f825-4102-a76b-270da9cd20bb"
+			name="ContentTextBlock11"
+			refimgid="e7e60c63-f06c-465b-b70e-a947a74cda80"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='8K']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='8K']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="d1bfe751-4cb3-4690-9b57-38b68d30b084"
+			name="ContentTextBlock12"
+			refimgid="de586732-4408-451b-a73a-156852a8967a"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='CR']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='CR']
+			</item>
+			<item
+			addcaps="combobox,uiautomation"
+			capname="combobox"
+			id="15f7aac0-70a3-443d-b1ea-20990cb3e775"
+			name="FittingAutomationIdsAdvancedFeaturesAut"
+			refimgid="9f0665e2-fa55-46e6-9ff6-61c5aebb0945"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/combobox[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.RIGHT_EAR']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/combobox[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.RIGHT_EAR']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="b1dbbe0e-b539-4bf9-b20a-3e7c571bf9d8"
+			name="FittingAutomationIdsSaveAction"
+			refimgid="4d66c2d8-1319-4ffc-b15a-cafab00ad62c"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='FittingAutomationIds.SaveAction']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/button[@automationid='FittingAutomationIds.SaveAction']
+			</item>
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="e9981f07-0eec-47ae-bbc9-758f19a3d76e"
+			name="PARTScrollViewer"
+			refimgid="5f3e4524-164e-49fe-94a9-be9ca7ebcc63"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/container[2]"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/container[2]
+			</item>
+			<item
+			addcaps="menuitem,uiautomation"
+			capname="menuitem"
+			id="7ab256bf-d9f0-4f5f-9f32-88ed1d82182a"
+			name="MenuAutomationIdsFittingAction"
+			refimgid="a76ae6d0-69ff-4a9f-ad82-6787905254f0"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/menuitem[@automationid='MenuAutomationIds.FittingAction']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/menuitem[@automationid='MenuAutomationIds.FittingAction']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="a4879a91-0e7b-46d5-9b4a-a80fcea49200"
+			name="SavedToDatabase"
+			refimgid="5045e96f-4a88-4497-b727-23322a030806"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/container/text[4]"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/container/text[4]
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="c5fe61cb-d084-4356-912e-4e214d860563"
+			name="SaveAutomationIdsPerformSaveAutomationI1"
+			refimgid="1e6323eb-c59e-4094-a5b5-7381b52a7bac"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='SaveAutomationIds.PerformSaveAutomationIds.ExitAction']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/button[@automationid='SaveAutomationIds.PerformSaveAutomationIds.ExitAction']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="bc6fefc7-ba7e-46a9-a2ae-76b85d219600"
+			name="Test"
+			refimgid="dc6dfd58-029a-4780-b9eb-6731c0554ffc"
+			refpath="/form[@name='ReSound Smart Fit 1.17' and @classname='Window' and @orientation='None']/list[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItems']/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.144.Patient.Test.EditAction']/text[@name='Test']"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']//text[@name='Test']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.144.Patient.Test.EditAction']/text[@name='Test']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="3655249e-315a-4018-9864-fcfef51016cb"
+			name="Patient"
+			refimgid="b480305a-05fa-4587-8317-6fc4c8397b1c"
+			refpath="/form[@name='ReSound Smart Fit 1.17' and @classname='Window' and @orientation='None']/list[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItems']/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.144.Patient.Test.EditAction']/text[@name='Patient']"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.144.Patient.Test.EditAction']/text[@name='Patient']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.144.Patient.Test.EditAction']/text[@name='Patient']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="c7fb3cd2-8853-48f2-9ff6-39e214e50bb8"
+			name="FitPatient"
+			refimgid="499fb331-937e-494a-bc50-6ccfacded2ff"
+			refpath="/form[@name='ReSound Smart Fit 1.17' and @classname='Window' and @orientation='None']/list[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItems']/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.144.Patient.Test.EditAction']/button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.144.Patient.Test.FitAction']"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']//button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.144.Patient.Test.FitAction']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.144.Patient.Test.EditAction']/button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.144.Patient.Test.FitAction']
+			</item>
+			<item
+			addcaps="listitem,uiautomation,uiautomationscrollitem"
+			capname="listitem"
+			id="5df28b3f-b8dd-4d52-8e17-635febb36aa5"
+			name="StandAloneAutomationIdsListAutomationId"
+			refimgid="9d3607e3-9e0e-42dd-908f-b3a30dfeda48"
+			refpath="/form[@name='ReSound Smart Fit 1.17' and @classname='Window' and @orientation='None']/list[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItems']/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.145.Patient.Test.EditAction']"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.145.Patient.Test.EditAction']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.145.Patient.Test.EditAction']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="66e077f6-2ee9-4fa3-9348-890625e02c64"
+			name="StandAloneAutomationIdsListAutomationId1"
+			refimgid="05166443-171a-4ccc-8d58-79cdc84cd0e2"
+			refpath="/form[@name='ReSound Smart Fit 1.17' and @classname='Window' and @orientation='None']/list[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItems']/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.EditAction']/button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.FitAction']"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']//button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.FitAction']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.EditAction']/button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.FitAction']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="a76c0138-36f6-4c50-b497-b60e40b404ff"
+			name="Text3"
+			refimgid="29590c1a-3a3f-49de-a76b-50fb9b4d740d"
+			refpath="/form[@name='ReSound Smart Fit 1.17' and @classname='Window' and @orientation='None']/list[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItems']/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.EditAction']/button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.FitAction']/text[@automationid='Text']"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']//text[@name='Fit Patient']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']//button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.FitAction']/text[@automationid='Text']
+			</item>
+			<item
+			addcaps="listitem,uiautomation,uiautomationscrollitem"
+			capname="listitem"
+			id="3d0bd852-7355-4d5f-bd9e-93958d4847b9"
+			name="StandAloneAutomationIdsListAutomationId2"
+			refimgid="c3e3f2a3-aa8f-456b-8d39-8027e0dd2c2a"
+			refpath="/form[@name='ReSound Smart Fit 1.17' and @classname='Window' and @orientation='None']/list[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItems']/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.EditAction']"
+			robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.EditAction']"
+			searchtimeout="30000ms">
+				/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.142.hii.hello.EditAction']
+			</item>
+			<basepath>
+				/form[@name='ReSound Smart Fit 1.17']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGrSURBVDhPY1gjqvN2jZj2HyD+RQpeLab9e7WY
+zicGiIDOf3IxyAU/sUmsEdf9v1ZCD4zBfFFtBIaqAbrgH4oBMA1rgZpXCWn8X8mr/H+VoPr/FVxK
+/2/NXPT/x9t3/x+t3QKWA1kA0gM3YLWIFlCDyv9V/Gr/l7HJ/T+dW/3/4/Vb/5/vPgi29fGG7f9B
+4O2Zi2BD4QasFdf7uZJP9f8uG7//r0+c+f/u4tX/Oyx9/l+s6wJr+Pn+w/+1kvpAm7eC+W9OnUcz
+QELv5wpupf/7PKPACkBgv3fM//OVbWD2jzfvIAas3wbmY7oAZoAHwoB9XtH/L1S3g9lwFxA0ANkF
+IAOq6GoAD8gLkWAFIADyAjwMXr+FGLBmC5j/5uQ54gKR6DBYI6b7c5Wgxv8tuo7/Lzf3/b/SMfn/
+Fj2n/3tcwv5f65kOdglI8dGY7P/Xemf8P5VZ8X+1sBZYM8QAUEICKlgtpPl/Gavs/2UsMmD2SmCC
+WsosDU5UIIUgV4L4yzkV4JohBsAyE9CQtVL6YAx2ngQSHyi/VhKYxEF8II1iAChLIguQgleL6vwA
+AMC7ZZhmhaYDAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="9a7a3d65-5cbd-4e5a-954d-c974fef3dab7"
+		isrooted="True"
+		name="SmartLauncher"
+		refimgid="2a0771ef-2e09-4dd8-a402-b2892c15299d"
+		refpath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="84bd17fa-b6e6-4b2c-a54d-d7b9aad3e6c9"
+			name="SmartLauncherAutomationIdsSimulateActio"
+			refimgid="a16a8685-0310-40f2-b903-ceebe2a280aa"
+			refpath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/button[@automationid='SmartLauncherAutomationIds.SimulateAction']"
+			robustPath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/button[@automationid='SmartLauncherAutomationIds.SimulateAction']"
+			searchtimeout="30000ms">
+				/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/button[@automationid='SmartLauncherAutomationIds.SimulateAction']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="0393172b-01ff-45f8-a86c-83e66e183186"
+			name="Text"
+			refimgid="f3a16815-d307-49b8-bacd-09f86549b55b"
+			refpath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@automationid='Text' and @name='Smart Launcher']"
+			robustPath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@name='Smart Launcher']"
+			searchtimeout="30000ms">
+				/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@name='Smart Launcher']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="cbd610ce-f128-4d99-9c77-5f3c67383ed9"
+			name="WindowAutomationIdsCloseAction"
+			refimgid="f9640a64-1b61-44c9-9419-010fe3bbaa95"
+			refpath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/button[@automationid='WindowAutomationIds.CloseAction']"
+			robustPath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/button[@automationid='WindowAutomationIds.CloseAction']"
+			searchtimeout="30000ms">
+				/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/button[@automationid='WindowAutomationIds.CloseAction']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="56f1157d-47ea-4777-ad04-5c3a7b5ec116"
+			name="InstrumentModel"
+			refimgid="8d77f080-1d92-4bc0-ae32-9a8e2830f08f"
+			refpath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@automationid='PART_Editor']/text[@name='Instrument Model']"
+			robustPath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/?/?/text[@name='Instrument Model']"
+			searchtimeout="30000ms">
+				/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/?/?/text[@name='Instrument Model']
+			</item>
+			<item
+			addcaps="listitem,uiautomation,uiautomationscrollitem"
+			capname="listitem"
+			id="bccc1e95-733d-4e68-97ee-0019de175471"
+			name="ReSoundLiNX3D9"
+			refimgid="14b91485-7eec-4cf0-ae18-75268e39a7b3"
+			refpath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/container/list/listitem[@name='ReSound LiNX 3D 9']"
+			robustPath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']//listitem[@name='ReSound LiNX 3D 9']"
+			searchtimeout="30000ms">
+				/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/?/?/list[@automationid='FamilyListBox']/listitem[@name='ReSound LiNX 3D 9']
+			</item>
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="b30424b6-b760-4b2d-8cbc-cf0074868e2c"
+			name="PARTFamilyGroupsScrollViewer"
+			refimgid="7e980bb5-6556-48ec-b659-e0d7cb56705c"
+			refpath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/container[@automationid='PART_FamilyGroupsScrollViewer']"
+			robustPath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/container[@automationid='PART_FamilyGroupsScrollViewer']"
+			searchtimeout="30000ms">
+				/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/container[@automationid='PART_FamilyGroupsScrollViewer']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="e621950b-d943-4722-90b5-752e20e4d01d"
+			name="ReSoundLiNX3D"
+			refimgid="ac54601d-6cb4-423a-b78a-a362ffeb219e"
+			refpath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/container/text[@name='ReSound LiNX 3D']"
+			robustPath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/?/?/text[@name='ReSound LiNX 3D']"
+			searchtimeout="30000ms">
+				/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/?/?/text[@name='ReSound LiNX 3D']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="55a83cfb-d2e7-41f4-bcfc-d739888b5aef"
+			name="PARTEditor"
+			refimgid="5f458447-9c0b-47af-839b-ae209aa9f6e0"
+			refpath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@automationid='PART_Editor']"
+			robustPath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@automationid='PART_Editor']"
+			searchtimeout="30000ms">
+				/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@automationid='PART_Editor']
+			</item>
+			<basepath>
+				/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGrSURBVDhPY1gjqvN2jZj2HyD+RQpeLab9e7WY
+zicGiIDOf3IxyAU/sUmsEdf9v1ZCD4zBfFFtBIaqAbrgH4oBMA1rgZpXCWn8X8mr/H+VoPr/FVxK
+/2/NXPT/x9t3/x+t3QKWA1kA0gM3YLWIFlCDyv9V/Gr/l7HJ/T+dW/3/4/Vb/5/vPgi29fGG7f9B
+4O2Zi2BD4QasFdf7uZJP9f8uG7//r0+c+f/u4tX/Oyx9/l+s6wJr+Pn+w/+1kvpAm7eC+W9OnUcz
+QELv5wpupf/7PKPACkBgv3fM//OVbWD2jzfvIAas3wbmY7oAZoAHwoB9XtH/L1S3g9lwFxA0ANkF
+IAOq6GoAD8gLkWAFIADyAjwMXr+FGLBmC5j/5uQ54gKR6DBYI6b7c5Wgxv8tuo7/Lzf3/b/SMfn/
+Fj2n/3tcwv5f65kOdglI8dGY7P/Xemf8P5VZ8X+1sBZYM8QAUEICKlgtpPl/Gavs/2UsMmD2SmCC
+WsosDU5UIIUgV4L4yzkV4JohBsAyE9CQtVL6YAx2ngQSHyi/VhKYxEF8II1iAChLIguQgleL6vwA
+AMC7ZZhmhaYDAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow,wpfwin32element,wpfelement"
+		capname="contextmenu"
+		id="38008620-1f1a-4578-b6a6-eefb8e3b7d4e"
+		isrooted="True"
+		name="SmartFit"
+		refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,wpfelement"
+			capname="menuitem"
+			id="1230175b-bb3b-4e7a-80a6-abde14e40479"
+			name="MenuAutomationIdsViewAutomationIdsCoup1"
+			refimgid="509cad6d-2b34-49a3-805b-34ab83608571"
+			refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.InsertionGain']"
+			robustPath="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.InsertionGain']"
+			searchtimeout="30000ms">
+				/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.InsertionGain']
+			</item>
+			<item
+			addcaps="unknown,wpfelement"
+			capname="unknown"
+			id="bd1372d6-c1c4-4631-bead-0f4b33814157"
+			name="SomeElement"
+			refimgid="9096459e-5472-4f1c-a9ab-9fed20b52d5e"
+			refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.LanguageActionItemsAutomationIds.bg-BG']/element/element"
+			robustPath="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.LanguageActionItemsAutomationIds.bg-BG']/element[@automationid='GeometryContentControl']/element"
+			searchtimeout="30000ms">
+				/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.LanguageActionItemsAutomationIds.bg-BG']/?/?/element
+			</item>
+			<item
+			addcaps="container,wpfelement"
+			capname="container"
+			id="41431212-ff16-47e9-96d8-08a86b4d381c"
+			name="SomeContainer"
+			refimgid="cfe896f1-806a-400a-9f61-4e49ad6a6e27"
+			refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container"
+			robustPath="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container"
+			searchtimeout="30000ms">
+				/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container
+			</item>
+			<item
+			addcaps="menuitem,wpfelement"
+			capname="menuitem"
+			id="738dd655-9942-43fc-8b5f-811815731f97"
+			name="MenuAutomationIdsViewAutomationIdsCoup2"
+			refimgid="65f41453-581d-4035-91f9-82befa87ae02"
+			refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.TwoCCGain']"
+			robustPath="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.TwoCCGain']"
+			searchtimeout="30000ms">
+				/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.TwoCCGain']
+			</item>
+			<item
+			addcaps="listitem,wpfelement"
+			capname="listitem"
+			id="dcb8ef2d-c09f-45a8-b443-b265e0c98194"
+			name="SomeListItem"
+			refimgid="152bbba0-0506-4f0a-a2be-a976954a409e"
+			refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/list/container/container[1]/listitem/container/container[@automationid='ProductDetailsGrid']/list/container/listitem[@index='1']"
+			robustPath="/contextmenu[@automationid='' and @wpfnative='True']//listitem[@index='1']"
+			searchtimeout="30000ms">
+				/contextmenu[@automationid='' and @wpfnative='True']/list//listitem[@index='0']/?/?/container[@automationid='ProductDetailsGrid']/list/?/?/listitem[@index='1']
+			</item>
+			<item
+			addcaps="radiobutton,wpfelement"
+			capname="radiobutton"
+			id="b59e15e8-edf5-48eb-9eef-1611ee0679eb"
+			name="SideRadioButton"
+			refimgid="e24cad14-d80d-4079-b7bd-ef88d12a9330"
+			refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/list/container/container[1]/listitem/container/container[@automationid='ProductDetailsGrid']/list/container/listitem[@index='1']/radiobutton[@automationid='SideRadioButton']"
+			robustPath="/contextmenu[@automationid='' and @wpfnative='True']//radiobutton[@name='SideRadioButton' and @text='Both']"
+			searchtimeout="30000ms">
+				/contextmenu[@automationid='' and @wpfnative='True']/list//container[@automationid='ProductDetailsGrid']/list/?/?/listitem[@index='1']/radiobutton[@automationid='SideRadioButton']
+			</item>
+			<item
+			addcaps="container,wpfelement"
+			capname="container"
+			id="29bc992c-b9de-4f0e-8feb-c34bd5b2fc07"
+			name="SomeContainer1"
+			refimgid="544d56c8-936a-4f49-8ae5-80b3f596815e"
+			refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/list/container/container[1]/listitem/container"
+			robustPath="/contextmenu[@automationid='' and @wpfnative='True']//listitem/container"
+			searchtimeout="30000ms">
+				/contextmenu[@automationid='' and @wpfnative='True']/list//listitem[@index='0']/container
+			</item>
+			<item
+			addcaps="unknown,wpfelement"
+			capname="unknown"
+			id="b046927d-1556-49e9-b756-f4fd8e9b7e75"
+			name="SomeElement1"
+			refimgid="aa9250cc-7511-4d07-98a2-c40289de47ff"
+			refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container/element/element"
+			robustPath="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container/element[@automationid='GeometryContentControl']/element"
+			searchtimeout="30000ms">
+				/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container/element[@automationid='GeometryContentControl']/element
+			</item>
+			<item
+			addcaps="listitem,wpfelement"
+			capname="listitem"
+			id="932b714e-657e-4c7a-8569-8f5678e7d622"
+			name="FittingAutomationIdsAdvancedFeaturesAut"
+			refimgid="be88c144-8065-45ae-b46b-6e904eaf6225"
+			refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/listitem[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.Omni.RIGHT_EAR']"
+			robustPath="/contextmenu[@automationid='' and @wpfnative='True']/listitem[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.Omni.RIGHT_EAR']"
+			searchtimeout="30000ms">
+				/contextmenu[@automationid='' and @wpfnative='True']/listitem[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.Omni.RIGHT_EAR']
+			</item>
+			<item
+			addcaps="menuitem,wpfelement"
+			capname="menuitem"
+			id="74020028-93a4-4e10-a397-bf9a1c777d4f"
+			name="MenuAutomationIdsFittingAutomationIdsR"
+			refimgid="302f9919-a7ad-44c2-a363-f83de0aa91bf"
+			refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.FittingAutomationIds.ResetAutomationIds.InitialFitAction']"
+			robustPath="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.FittingAutomationIds.ResetAutomationIds.InitialFitAction']"
+			searchtimeout="30000ms">
+				/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.FittingAutomationIds.ResetAutomationIds.InitialFitAction']
+			</item>
+			<basepath>
+				/contextmenu[@automationid='' and @wpfnative='True']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="14e0119e-0a45-4136-9024-cf59fbb8a5c2"
+		isrooted="True"
+		name="Explorer1"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="e87b7d56-29b2-40c2-b59e-e3e1c5cda498"
+			name="LaunchFSWRanorexStudio32bit"
+			refimgid="f87b6b38-566c-4d5c-84ba-cb80057b45c4"
+			refpath="/form[@title='']/list/listitem[@accessiblename>'LaunchFSW - Ranorex Studio']"
+			robustPath="/form[@title='']/?/?/listitem[@accessiblename>'LaunchFSW - Ranorex Studio']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/listitem[@accessiblename&gt;'LaunchFSW - Ranorex Studio']
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADSSURBVDhPpdK/DsFQGAXw8wg2L9KI9AHEZmhi
+MBgMBoN4AINNIhaCiXbwFCYjg5T4UyGqxCN4gEOjt7lDew33JL/lO9/XuxTaeThgIhvLwEEmWktP
+YINp7lNs/37kPAKT+E6Wb7dF3jvpXkN+N9tMdW2Sl4bS97k6dYBejTrAU5U6wGOFQm+xoTV/KoU7
+8g14KFMozAKaE18p3JFvwL1FIekgiXwD7koUzPEtJs9VHegWKeQHXkyeqzpwbVDI9d2YPFd10Q/9
+i9FdUYhGcVSdRoAPUdlLBd+8Ak0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<item
+		addcaps="menuitem,wpfelement"
+		capname="menuitem"
+		id="06277e6b-0442-4926-a654-5e27f78423e3"
+		name="MenuAutomationIdsViewAutomationIdsCoup"
+		refimgid="a1f53e11-ac70-4f54-97a5-ceeac7bea450"
+		refpath="/contextmenu[@automationid='' and @automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.Coupler_OES']"
+		robustPath="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.Coupler_OES']"
+		searchtimeout="30000ms">
+			/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.Coupler_OES']
+		</item>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="30213608-5b5a-467d-90fd-56a7f6a575c1"
+		isrooted="True"
+		name="TargetViewer"
+		refimgid="789121b9-e6ee-4380-886d-357fc891cd2e"
+		refpath="/form[@name='Target Viewer' and @classname='Window' and @orientation='None']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="table,uiautomation"
+			capname="table"
+			id="408104b9-101e-489b-96f8-23b43750d59a"
+			name="DataGrid"
+			refimgid="a8d5b95b-7e54-4fcf-993d-777dd546e57b"
+			refpath="/form[@name='Target Viewer' and @classname='Window' and @orientation='None']/element/tabpagelist/tabpage[1]/container/table[3]"
+			robustPath="/form[@name='Target Viewer' and @classname='Window' and @orientation='None']//container/table[3]"
+			searchtimeout="30000ms">
+				/form[@name='Target Viewer' and @classname='Window' and @orientation='None']/?/?/tabpagelist/tabpage[1]/container[@automationid='MainScrollViewer']/table[3]
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="d4d2e8a2-a82b-48ac-a2d1-74162471c715"
+			name="PATHCloseButton"
+			refimgid="279c280d-5d5e-4c04-b748-c77d44e247dd"
+			refpath="/form[@name='Target Viewer' and @classname='Window' and @orientation='None']/button[@automationid='PATH_CloseButton']"
+			robustPath="/form[@name='Target Viewer' and @classname='Window' and @orientation='None']/button[@automationid='PATH_CloseButton']"
+			searchtimeout="30000ms">
+				/form[@name='Target Viewer' and @classname='Window' and @orientation='None']/button[@automationid='PATH_CloseButton']
+			</item>
+			<basepath>
+				/form[@name='Target Viewer' and @classname='Window' and @orientation='None']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGrSURBVDhPY1gjqvN2jZj2HyD+RQpeLab9e7WY
+zicGiIDOf3IxyAU/sUmsEdf9v1ZCD4zBfFFtBIaqAbrgH4oBMA1rgZpXCWn8X8mr/H+VoPr/FVxK
+/2/NXPT/x9t3/x+t3QKWA1kA0gM3YLWIFlCDyv9V/Gr/l7HJ/T+dW/3/4/Vb/5/vPgi29fGG7f9B
+4O2Zi2BD4QasFdf7uZJP9f8uG7//r0+c+f/u4tX/Oyx9/l+s6wJr+Pn+w/+1kvpAm7eC+W9OnUcz
+QELv5wpupf/7PKPACkBgv3fM//OVbWD2jzfvIAas3wbmY7oAZoAHwoB9XtH/L1S3g9lwFxA0ANkF
+IAOq6GoAD8gLkWAFIADyAjwMXr+FGLBmC5j/5uQ54gKR6DBYI6b7c5Wgxv8tuo7/Lzf3/b/SMfn/
+Fj2n/3tcwv5f65kOdglI8dGY7P/Xemf8P5VZ8X+1sBZYM8QAUEICKlgtpPl/Gavs/2UsMmD2SmCC
+WsosDU5UIIUgV4L4yzkV4JohBsAyE9CQtVL6YAx2ngQSHyi/VhKYxEF8II1iAChLIguQgleL6vwA
+AMC7ZZhmhaYDAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="3e58e746-2d81-46bf-82a4-e42589f514c9"
+		isrooted="True"
+		name="Window"
+		refpath="/form[@classname='Window' and @orientation='None' and @automationid='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="ec9fa989-101f-4b48-8541-43417c6dc3e1"
+			name="Expander"
+			refimgid="cefaccca-3a7a-4d66-9982-5958afd4a83d"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/tree/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+			robustPath="/form[@orientation='None' and @automationid='']/?/?/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="f7139f1b-04c3-4322-b5b1-e7c2f9ee110e"
+			name="Maximize"
+			refimgid="75a32280-38f6-49d2-8fbe-95e1b01a8afc"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/titlebar/button[@automationid='Maximize']"
+			robustPath="/form[@orientation='None' and @automationid='']/?/?/button[@automationid='Maximize']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']/?/?/button[@automationid='Maximize']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="bbe5f9ac-2629-4a13-a03f-610ed9273fbf"
+			name="Expander1"
+			refimgid="58cf51a3-e5d5-4618-9fce-db143e7e22af"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/tree/treeitem[@name='Active Product Left']/treeitem[@automationid='AvailablePrograms']/button[@automationid='Expander']"
+			robustPath="/form[@orientation='None' and @automationid='']//treeitem[@automationid='AvailablePrograms']/button[@automationid='Expander']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']//treeitem[@automationid='AvailablePrograms']/button[@automationid='Expander']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="01bdc7d9-c52e-44bd-b7e8-35b772bd3889"
+			name="Expander2"
+			refimgid="a378fd74-05d0-4954-8b51-88458729fe03"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/tree/treeitem[@name='Active Product Left']/treeitem[@automationid='AvailablePrograms']/treeitem[1]/button[@automationid='Expander']"
+			robustPath="/form[@orientation='None' and @automationid='']//treeitem[@automationid='AvailablePrograms']/treeitem[1]/button[@automationid='Expander']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AvailablePrograms']/?/?/button[@automationid='Expander']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="6a0740ac-95fd-4386-81b9-ccc805487eea"
+			name="Expander3"
+			refimgid="dbd0e8b1-7e24-4f54-95a4-91eea1e19b8e"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/tree/treeitem[@name='Active Product Left']/treeitem[@automationid='AvailablePrograms']/treeitem[1]/treeitem[@automationid='Features']/button[@automationid='Expander']"
+			robustPath="/form[@orientation='None' and @automationid='']//treeitem[@name='Features, Count : 47']/button[@automationid='Expander']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']//treeitem[@automationid='AvailablePrograms']/?/?/treeitem[@automationid='Features']/button[@automationid='Expander']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="db7e1f6c-b155-4e46-8998-dfc46421a55b"
+			name="Directionality"
+			refimgid="9d7e7a27-364b-4aa7-9238-cd7a6ffa0962"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/treeitem[@automationid='AvailablePrograms']/treeitem[1]/treeitem[@automationid='Features']/treeitem[@name='Directionality']/text[@name='Directionality']"
+			robustPath="/form[@orientation='None' and @automationid='']//text[@name='Directionality']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AvailablePrograms']/?/?/treeitem[@automationid='Features']/?/?/text[@name='Directionality']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="ddce36f0-3fc9-4535-ba39-9a8dcfef9036"
+			name="Expander4"
+			refimgid="8a211144-8f9a-421c-8501-518f06a4b969"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/tree/treeitem[@name='Active Product Left']/treeitem[@automationid='AvailablePrograms']/treeitem[1]/treeitem[@automationid='Features']/treeitem[@name='Directionality']/button[@automationid='Expander']"
+			robustPath="/form[@orientation='None' and @automationid='']//treeitem[@name='Directionality']/button[@automationid='Expander']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AvailablePrograms']/?/?/treeitem[@automationid='Features']/treeitem[@name='Directionality']/button[@automationid='Expander']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="076905ed-4b9d-463c-87a4-dd3695c3052f"
+			name="Expander5"
+			refimgid="7065af7b-9f22-45cc-8f84-e3aeccbc8e2c"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/tree/treeitem[@name='Active Product Left']/treeitem[@automationid='AllPrograms']/button[@automationid='Expander']"
+			robustPath="/form[@orientation='None' and @automationid='']//treeitem[@automationid='AllPrograms']/button[@automationid='Expander']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']//treeitem[@automationid='AllPrograms']/button[@automationid='Expander']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="d3fdd762-6f67-4a3a-9e16-3bb19a874906"
+			name="Expander6"
+			refimgid="5b1b96e2-80f5-4778-97f9-0c16b67b4598"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/tree/treeitem[@name='Active Product Left']/treeitem[@automationid='AllPrograms']/treeitem[1]/button[@automationid='Expander']"
+			robustPath="/form[@orientation='None' and @automationid='']//treeitem[@automationid='AllPrograms']/treeitem[1]/button[@automationid='Expander']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AllPrograms']/treeitem[1]/button[@automationid='Expander']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="5bc3cf51-95ac-45bb-813e-7ec0827e84b2"
+			name="Expander7"
+			refimgid="c4b747bc-3bc5-4eb0-a007-eb1bb213b894"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/tree/treeitem[@name='Active Product Left']/treeitem[@automationid='AllPrograms']/treeitem[1]/treeitem[@automationid='Features']/button[@automationid='Expander']"
+			robustPath="/form[@orientation='None' and @automationid='']//treeitem[@name='Features, Count : 47']/button[@automationid='Expander']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']//treeitem[@automationid='AllPrograms']/?/?/treeitem[@automationid='Features']/button[@automationid='Expander']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationtoggle"
+			capname="button"
+			id="d723a4a4-a08a-455e-9435-cf4ba1eb9201"
+			name="Expander8"
+			refimgid="6df5983d-201b-482f-89f3-b4851ac1cd42"
+			refpath="/form[@classname='Window' and @orientation='None' and @automationid='']/tree/treeitem[@name='Active Product Left']/treeitem[@automationid='AllPrograms']/treeitem[1]/treeitem[@automationid='Features']/treeitem[@name='Directionality']/button[@automationid='Expander']"
+			robustPath="/form[@orientation='None' and @automationid='']//treeitem[@name='Directionality']/button[@automationid='Expander']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AllPrograms']/?/?/treeitem[@automationid='Features']/?/?/button[@classname='Button' and @orientation='None' and @iscontentelement='True']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="f4ce56fa-32e6-4386-b5b0-ff0141878088"
+			name="DialogAutomationIdsPositiveAction"
+			refimgid="0b6d9571-2ec2-4574-9e61-faa024614bf7"
+			refpath="/form[@name='Reset to Initial Fit' and @classname='Window' and @orientation='None']/button[@automationid='DialogAutomationIds.PositiveAction']"
+			robustPath="/form[@orientation='None' and @automationid='']/button[@automationid='DialogAutomationIds.PositiveAction']"
+			searchtimeout="30000ms">
+				/form[@orientation='None' and @automationid='']/button[@automationid='DialogAutomationIds.PositiveAction']
+			</item>
+			<basepath>
+				/form[@orientation='None' and @automationid='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGrSURBVDhPY1gjqvN2jZj2HyD+RQpeLab9e7WY
+zicGiIDOf3IxyAU/sUmsEdf9v1ZCD4zBfFFtBIaqAbrgH4oBMA1rgZpXCWn8X8mr/H+VoPr/FVxK
+/2/NXPT/x9t3/x+t3QKWA1kA0gM3YLWIFlCDyv9V/Gr/l7HJ/T+dW/3/4/Vb/5/vPgi29fGG7f9B
+4O2Zi2BD4QasFdf7uZJP9f8uG7//r0+c+f/u4tX/Oyx9/l+s6wJr+Pn+w/+1kvpAm7eC+W9OnUcz
+QELv5wpupf/7PKPACkBgv3fM//OVbWD2jzfvIAas3wbmY7oAZoAHwoB9XtH/L1S3g9lwFxA0ANkF
+IAOq6GoAD8gLkWAFIADyAjwMXr+FGLBmC5j/5uQ54gKR6DBYI6b7c5Wgxv8tuo7/Lzf3/b/SMfn/
+Fj2n/3tcwv5f65kOdglI8dGY7P/Xemf8P5VZ8X+1sBZYM8QAUEICKlgtpPl/Gavs/2UsMmD2SmCC
+WsosDU5UIIUgV4L4yzkV4JohBsAyE9CQtVL6YAx2ngQSHyi/VhKYxEF8II1iAChLIguQgleL6vwA
+AMC7ZZhmhaYDAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<item
+		addcaps="button,uiautomation,uiautomationinvoke"
+		capname="button"
+		id="919f315e-d805-44c7-98eb-2f2483a217b0"
+		name="StandAloneAutomationIdsListAutomationId"
+		refimgid="520103d2-ae10-4761-bd1a-47560fbcd41d"
+		refpath="/form[@name='ReSound Smart Fit 1.17' and @classname='Window' and @orientation='None']/list[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItems']/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.107.xyz.abc.EditAction']/button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.107.xyz.abc.FitAction']"
+		robustPath="/form[@name='ReSound Smart Fit 1.17']//button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.107.xyz.abc.FitAction']"
+		searchtimeout="30000ms">
+			/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.107.xyz.abc.EditAction']/button[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.107.xyz.abc.FitAction']
+		</item>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="cf40f161-549b-409f-b42e-90ee0284e7c4"
+		isrooted="True"
+		name="SomeForm"
+		refpath="/form"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<item
+		addcaps="button,uiautomation,uiautomationinvoke"
+		capname="button"
+		id="e1eeeb05-8704-42f6-b780-dfa1b71ae377"
+		name="SaveAutomationIdsPerformSaveAutomationI"
+		refimgid="d69bc298-08aa-4d30-a1ee-7dcaeccac4cf"
+		refpath="/form[@name='ReSound Smart Fit 1.17' and @classname='Window' and @orientation='None']/button[@automationid='SaveAutomationIds.PerformSaveAutomationIds.ContinueAction']"
+		robustPath="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='SaveAutomationIds.PerformSaveAutomationIds.ContinueAction']"
+		searchtimeout="30000ms">
+			/form[@name='ReSound Smart Fit 1.17']/button[@automationid='SaveAutomationIds.PerformSaveAutomationIds.ContinueAction']
+		</item>
+		<item
+		addcaps="button,uiautomation,uiautomationinvoke"
+		capname="button"
+		id="a1a3ba30-900e-4cfe-99b1-b021bd6c950c"
+		name="StandAloneAutomationIdsDetailsAutomatio"
+		refimgid="9a3de069-a64f-48d9-8e09-3456a6da0208"
+		refpath="/form[@name='ReSound Smart Fit 1.17' and @classname='Window' and @orientation='None']/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.SaveAction']"
+		robustPath="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.SaveAction']"
+		searchtimeout="30000ms">
+			/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.SaveAction']
+		</item>
+		<item
+		addcaps="button,uiautomation,uiautomationinvoke"
+		capname="button"
+		id="e2f8dd77-38b0-41a8-8bb5-2ab572580307"
+		name="WindowAutomationIdsCloseAction"
+		refimgid="f0e04386-8f26-40d3-a5ba-63d906a34fe7"
+		robustPath="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='WindowAutomationIds.CloseAction']"
+		searchtimeout="30000ms">
+			/form[@name='ReSound Smart Fit 1.17']/button[@automationid='WindowAutomationIds.CloseAction']
+		</item>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="0f941e6e-f4b1-4313-92f0-7be845f3e885"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJN
+AACHDwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUND
+IHByb2ZpbGUAAEjHnZZ3VFTXFofPvXd6oc0wAlKG3rvAANJ7k15FYZgZYCgDDjM0sSGiAhFFRJoi
+SFDEgNFQJFZEsRAUVLAHJAgoMRhFVCxvRtaLrqy89/Ly++Osb+2z97n77L3PWhcAkqcvl5cGSwGQ
+yhPwgzyc6RGRUXTsAIABHmCAKQBMVka6X7B7CBDJy82FniFyAl8EAfB6WLwCcNPQM4BOB/+fpFnp
+fIHomAARm7M5GSwRF4g4JUuQLrbPipgalyxmGCVmvihBEcuJOWGRDT77LLKjmNmpPLaIxTmns1PZ
+Yu4V8bZMIUfEiK+ICzO5nCwR3xKxRoowlSviN+LYVA4zAwAUSWwXcFiJIjYRMYkfEuQi4uUA4EgJ
+X3HcVyzgZAvEl3JJS8/hcxMSBXQdli7d1NqaQffkZKVwBALDACYrmcln013SUtOZvBwAFu/8WTLi
+2tJFRbY0tba0NDQzMv2qUP91829K3NtFehn4uWcQrf+L7a/80hoAYMyJarPziy2uCoDOLQDI3fti
+0zgAgKSobx3Xv7oPTTwviQJBuo2xcVZWlhGXwzISF/QP/U+Hv6GvvmckPu6P8tBdOfFMYYqALq4b
+Ky0lTcinZ6QzWRy64Z+H+B8H/nUeBkGceA6fwxNFhImmjMtLELWbx+YKuGk8Opf3n5r4D8P+pMW5
+FonS+BFQY4yA1HUqQH7tBygKESDR+8Vd/6NvvvgwIH554SqTi3P/7zf9Z8Gl4iWDm/A5ziUohM4S
+8jMX98TPEqABAUgCKpAHykAd6ABDYAasgC1wBG7AG/iDEBAJVgMWSASpgA+yQB7YBApBMdgJ9oBq
+UAcaQTNoBcdBJzgFzoNL4Bq4AW6D+2AUTIBnYBa8BgsQBGEhMkSB5CEVSBPSh8wgBmQPuUG+UBAU
+CcVCCRAPEkJ50GaoGCqDqqF6qBn6HjoJnYeuQIPQXWgMmoZ+h97BCEyCqbASrAUbwwzYCfaBQ+BV
+cAK8Bs6FC+AdcCXcAB+FO+Dz8DX4NjwKP4PnEIAQERqiihgiDMQF8UeikHiEj6xHipAKpAFpRbqR
+PuQmMorMIG9RGBQFRUcZomxRnqhQFAu1BrUeVYKqRh1GdaB6UTdRY6hZ1Ec0Ga2I1kfboL3QEegE
+dBa6EF2BbkK3oy+ib6Mn0K8xGAwNo42xwnhiIjFJmLWYEsw+TBvmHGYQM46Zw2Kx8lh9rB3WH8vE
+CrCF2CrsUexZ7BB2AvsGR8Sp4Mxw7rgoHA+Xj6vAHcGdwQ3hJnELeCm8Jt4G749n43PwpfhGfDf+
+On4Cv0CQJmgT7AghhCTCJkIloZVwkfCA8JJIJKoRrYmBRC5xI7GSeIx4mThGfEuSIemRXEjRJCFp
+B+kQ6RzpLuklmUzWIjuSo8gC8g5yM/kC+RH5jQRFwkjCS4ItsUGiRqJDYkjiuSReUlPSSXK1ZK5k
+heQJyeuSM1J4KS0pFymm1HqpGqmTUiNSc9IUaVNpf+lU6RLpI9JXpKdksDJaMm4ybJkCmYMyF2TG
+KQhFneJCYVE2UxopFykTVAxVm+pFTaIWU7+jDlBnZWVkl8mGyWbL1sielh2lITQtmhcthVZKO04b
+pr1borTEaQlnyfYlrUuGlszLLZVzlOPIFcm1yd2WeydPl3eTT5bfJd8p/1ABpaCnEKiQpbBf4aLC
+zFLqUtulrKVFS48vvacIK+opBimuVTyo2K84p6Ss5KGUrlSldEFpRpmm7KicpFyufEZ5WoWiYq/C
+VSlXOavylC5Ld6Kn0CvpvfRZVUVVT1Whar3qgOqCmrZaqFq+WpvaQ3WCOkM9Xr1cvUd9VkNFw08j
+T6NF454mXpOhmai5V7NPc15LWytca6tWp9aUtpy2l3audov2Ax2yjoPOGp0GnVu6GF2GbrLuPt0b
+erCehV6iXo3edX1Y31Kfq79Pf9AAbWBtwDNoMBgxJBk6GWYathiOGdGMfI3yjTqNnhtrGEcZ7zLu
+M/5oYmGSYtJoct9UxtTbNN+02/R3Mz0zllmN2S1zsrm7+QbzLvMXy/SXcZbtX3bHgmLhZ7HVosfi
+g6WVJd+y1XLaSsMq1qrWaoRBZQQwShiXrdHWztYbrE9Zv7WxtBHYHLf5zdbQNtn2iO3Ucu3lnOWN
+y8ft1OyYdvV2o/Z0+1j7A/ajDqoOTIcGh8eO6o5sxybHSSddpySno07PnU2c+c7tzvMuNi7rXM65
+Iq4erkWuA24ybqFu1W6P3NXcE9xb3Gc9LDzWepzzRHv6eO7yHPFS8mJ5NXvNelt5r/Pu9SH5BPtU
++zz21fPl+3b7wX7efrv9HqzQXMFb0ekP/L38d/s/DNAOWBPwYyAmMCCwJvBJkGlQXlBfMCU4JvhI
+8OsQ55DSkPuhOqHC0J4wybDosOaw+XDX8LLw0QjjiHUR1yIVIrmRXVHYqLCopqi5lW4r96yciLaI
+LoweXqW9KnvVldUKq1NWn46RjGHGnIhFx4bHHol9z/RnNjDn4rziauNmWS6svaxnbEd2OXuaY8cp
+40zG28WXxU8l2CXsTphOdEisSJzhunCruS+SPJPqkuaT/ZMPJX9KCU9pS8Wlxqae5Mnwknm9acpp
+2WmD6frphemja2zW7Fkzy/fhN2VAGasyugRU0c9Uv1BHuEU4lmmfWZP5Jiss60S2dDYvuz9HL2d7
+zmSue+63a1FrWWt78lTzNuWNrXNaV78eWh+3vmeD+oaCDRMbPTYe3kTYlLzpp3yT/LL8V5vDN3cX
+KBVsLBjf4rGlpVCikF84stV2a9021DbutoHt5turtn8sYhddLTYprih+X8IqufqN6TeV33zaEb9j
+oNSydP9OzE7ezuFdDrsOl0mX5ZaN7/bb3VFOLy8qf7UnZs+VimUVdXsJe4V7Ryt9K7uqNKp2Vr2v
+Tqy+XeNc01arWLu9dn4fe9/Qfsf9rXVKdcV17w5wD9yp96jvaNBqqDiIOZh58EljWGPft4xvm5sU
+moqbPhziHRo9HHS4t9mqufmI4pHSFrhF2DJ9NProje9cv+tqNWytb6O1FR8Dx4THnn4f+/3wcZ/j
+PScYJ1p/0Pyhtp3SXtQBdeR0zHYmdo52RXYNnvQ+2dNt293+o9GPh06pnqo5LXu69AzhTMGZT2dz
+z86dSz83cz7h/HhPTM/9CxEXbvUG9g5c9Ll4+ZL7pQt9Tn1nL9tdPnXF5srJq4yrndcsr3X0W/S3
+/2TxU/uA5UDHdavrXTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriX
+eW/h/sYH6AdFD6UeVjxSfNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2d
+mnafvvF05dOJZ+nPFmYKf5X+tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/M
+F72Rf3P4LeNt37vwd5MLWe+x7ys/6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAAOxAAA
+DsQBlSsOGwAAAKdJREFUOE9j+P//P0UYqyApGKsgKZhh/eq5/ynBDCeObv3/5dMzgvjNyxsYGCQO
+dkFdVTZWBU8fX8EqDsOvX96HuAAmMHVCA9gwMK7M/t/TUYldDohXLJkCFkdxQUtDEYqihuqc/y+f
+QVyBLgcznOHMyZ1gBrkY7oKP7x+AMbqCt6/vYIjBMDgMQC5AD3FSMNwF5GKsqYsUjFWQFIxVkBSM
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<item
+		addcaps="text,uiautomation"
+		capname="text"
+		id="99eda652-1cff-45f2-ac9c-66678a51f0a0"
+		name="ContentTextBlock8"
+		refimgid="828b2deb-58a4-48db-b6e2-bafbea625e59"
+		robustPath="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='3K']"
+		searchtimeout="30000ms">
+			/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='3K']
+		</item>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

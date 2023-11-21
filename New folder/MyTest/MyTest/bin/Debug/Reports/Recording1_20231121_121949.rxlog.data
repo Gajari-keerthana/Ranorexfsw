@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.93s"
+		durationms="13925"
+		type="root"
+		rid="10b4ea9936f0298"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/21/2023 12:19:51 PM"
+		timestampiso="2023-11-21T06:49:51"
+		endtime="11/21/2023 12:20:05 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.285"
+			timeRelativeToTestModuleStartTime="00:03.285"
+			timeWallClock="12:19:54"
+			time="00:03.285"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\ReSound\SmartFit\SmartFitSA.exe' with arguments 'C:\Program Files (x86)\ReSound\SmartFit' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.314"
+			timeRelativeToTestModuleStartTime="00:03.314"
+			timeWallClock="12:19:54"
+			time="00:03.314"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.623"
+			timeRelativeToTestModuleStartTime="00:03.623"
+			timeWallClock="12:19:54"
+			time="00:03.623"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.StandAloneAutomationIdsAdd2Action' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='WindowAutomationIds.StandAloneShell']/?/?/button[@automationid='StandAloneAutomationIds.Add2Action']"
+				itempath="?/?/button[@automationid='StandAloneAutomationIds.Add2Action']"
+				fullname="MyTestRepository.WindowAutomationIdsStandAloneShell.StandAloneAutomationIdsAdd2Action"
+				id="609b3f1e0a8e4e89aeb9d6ae2fa1971a"
+				timeout="60000"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

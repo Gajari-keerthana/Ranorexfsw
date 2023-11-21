@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="25.54s"
+		durationms="25541"
+		type="root"
+		rid="225430dd1399e698"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/8/2023 3:12:39 PM"
+		timestampiso="2023-11-08T09:42:39"
+		endtime="11/8/2023 3:13:05 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AudiogramGains">
+		<detail>
+			AudiogramGains
+		</detail>
+		<errormessage>
+			No element found for path '/form[@name='Target Viewer' and @classname='Window' and @orientation='None']/?/?/tabpagelist/tabpage[1]/container[@automationid='MainScrollViewer']/table[3]' at step 'form[@name='Target Viewer' and @classname='Window' and @orientation='None']' after 53 attempts within 10s.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.654"
+			timeRelativeToTestModuleStartTime="00:03.654"
+			timeWallClock="15:12:43"
+			time="00:03.654"
+			level="Info"
+			category="Keyboard"
+			errimg="images_Audiogra_36fad557\Audiogra_36fad557_959d6575_trace.jpg"
+			errthumb="images_Audiogra_36fad557\Audiogra_36fad557_959d6575_trace_thumb.jpg">
+			<message>
+				Key sequence '{LControlKey down}{LShiftKey down}{LMenu down}{Tkey}{LMenu up}{LShiftKey up}{LControlKey up}' with focus on 'WindowAutomationIdsStandAloneShell'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']"
+				itempath="/form[@name='ReSound Smart Fit 1.17']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Self"
+				id="b9d4415a519a4376a30dbb92f0511cbd"
+				timeout="30000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.475"
+			timeRelativeToTestModuleStartTime="00:25.475"
+			timeWallClock="15:13:05"
+			time="00:25.475"
+			level="Error"
+			category="Module"
+			errimg="images_Audiogra_36fad557\Audiogra_36fad557_c10e26db_trace.jpg"
+			errthumb="images_Audiogra_36fad557\Audiogra_36fad557_c10e26db_trace_thumb.jpg">
+			<message>
+				No element found for path '/form[@name='Target Viewer' and @classname='Window' and @orientation='None']/?/?/tabpagelist/tabpage[1]/container[@automationid='MainScrollViewer']/table[3]' at step 'form[@name='Target Viewer' and @classname='Window' and @orientation='None']' after 53 attempts within 10s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   at Ranorex.Core.Element.FromPath(String path)
+   at Ranorex.Table.op_Implicit(String path)
+   at LaunchFSW.Datagains.targetrules() in D:\Ranorex\LaunchFSW\LaunchFSW\Datagains.cs:line 48
+   at LaunchFSW.AudiogramGains.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs:line 90
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Datagains.cs"
+				codeline="48"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

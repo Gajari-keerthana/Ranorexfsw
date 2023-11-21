@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.37s"
+		durationms="11367"
+		type="root"
+		rid="5d12f521ef2a109"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/17/2023 3:50:38 PM"
+		timestampiso="2023-10-17T10:20:38"
+		endtime="10/17/2023 3:50:50 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.629"
+			timeRelativeToTestModuleStartTime="00:04.629"
+			timeWallClock="15:50:43"
+			time="00:04.629"
+			level="Info"
+			category="Application"
+			errimg="images_Recordin_315bac38\Recordin_315bac38_5f003276_trace.jpg"
+			errthumb="images_Recordin_315bac38\Recordin_315bac38_5f003276_trace_thumb.jpg">
+			<message>
+				Run application 'C:\Program Files (x86)\ReSound\SmartFit\SmartFitSA.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.662"
+			timeRelativeToTestModuleStartTime="00:04.662"
+			timeWallClock="15:50:43"
+			time="00:04.662"
+			level="Info"
+			category="Delay"
+			errimg="images_Recordin_315bac38\Recordin_315bac38_5f003276_trace.jpg"
+			errthumb="images_Recordin_315bac38\Recordin_315bac38_5f003276_trace_thumb.jpg">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.969"
+			timeRelativeToTestModuleStartTime="00:04.969"
+			timeWallClock="15:50:43"
+			time="00:04.969"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_315bac38\Recordin_315bac38_d36ab8eb_trace.jpg"
+			errthumb="images_Recordin_315bac38\Recordin_315bac38_d36ab8eb_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell1.StandAloneAutomationIdsAdd2Action' at 74;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@automationid='PART_LayoutRoot']/container[2]/container[1]/element[3]//container/container//button[@automationid='StandAloneAutomationIds.Add2Action']"
+				itempath="container[@automationid='PART_LayoutRoot']/container[2]/container[1]/element[3]//container/container//button[@automationid='StandAloneAutomationIds.Add2Action']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell1.StandAloneAutomationIdsAdd2Action"
+				id="fd6549afa3c54168b55c8da1f4c57828"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.160"
+			timeRelativeToTestModuleStartTime="00:11.160"
+			timeWallClock="15:50:49"
+			time="00:11.160"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="90"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.259"
+			timeRelativeToTestModuleStartTime="00:11.259"
+			timeWallClock="15:50:50"
+			time="00:11.259"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_315bac38\Recordin_315bac38_bdd9947e_trace.jpg"
+			errthumb="images_Recordin_315bac38\Recordin_315bac38_bdd9947e_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at LaunchFSW.Recording1.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs:line 90
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="90"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

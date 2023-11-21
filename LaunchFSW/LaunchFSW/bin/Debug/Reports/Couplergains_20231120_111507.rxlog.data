@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.69s"
+		durationms="3689"
+		type="root"
+		rid="18071019a1e42050"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/20/2023 11:15:10 AM"
+		timestampiso="2023-11-20T05:45:10"
+		endtime="11/20/2023 11:15:13 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Couplergains">
+		<detail>
+			Couplergains
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.595"
+			timeRelativeToTestModuleStartTime="00:03.595"
+			timeWallClock="11:15:13"
+			time="00:03.595"
+			level="Info"
+			category="User"
+			errimg="images_Couplerg_fd10b213\Couplerg_fd10b213_db787bc8_trace.jpg"
+			errthumb="images_Couplerg_fd10b213\Couplerg_fd10b213_db787bc8_trace_thumb.jpg">
+			<message>
+				Comparision UnSuccessfull
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\filematch.cs"
+				codeline="40"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.606"
+			timeRelativeToTestModuleStartTime="00:03.606"
+			timeWallClock="11:15:13"
+			time="00:03.606"
+			level="Failure"
+			category="User"
+			errimg="images_Couplerg_fd10b213\Couplerg_fd10b213_db787bc8_trace.jpg"
+			errthumb="images_Couplerg_fd10b213\Couplerg_fd10b213_db787bc8_trace_thumb.jpg">
+			<message>
+				Comparision UnSuccessfull
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\filematch.cs"
+				codeline="41"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.610"
+			timeRelativeToTestModuleStartTime="00:03.610"
+			timeWallClock="11:15:13"
+			time="00:03.610"
+			level="Info"
+			category="User"
+			errimg="images_Couplerg_fd10b213\Couplerg_fd10b213_db787bc8_trace.jpg"
+			errthumb="images_Couplerg_fd10b213\Couplerg_fd10b213_db787bc8_trace_thumb.jpg">
+			<message>
+				Comparision Successfull
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\filematch.cs"
+				codeline="71"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.611"
+			timeRelativeToTestModuleStartTime="00:03.611"
+			timeWallClock="11:15:13"
+			time="00:03.611"
+			level="Error"
+			category="Module"
+			errimg="images_Couplerg_fd10b213\Couplerg_fd10b213_db787bc8_trace.jpg"
+			errthumb="images_Couplerg_fd10b213\Couplerg_fd10b213_db787bc8_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

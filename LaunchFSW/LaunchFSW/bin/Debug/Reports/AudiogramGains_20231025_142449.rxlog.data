@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="18.15s"
+		durationms="18145"
+		type="root"
+		rid="179bb4decea69ec0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/25/2023 2:24:51 PM"
+		timestampiso="2023-10-25T08:54:51"
+		endtime="10/25/2023 2:25:09 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AudiogramGains">
+		<detail>
+			AudiogramGains
+		</detail>
+		<errormessage>
+			Parsing RxPath '//ContentTextBlock[i]' failed.
+line 1:20 mismatched input ']' expecting StrongOp&#10;
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.058"
+			timeRelativeToTestModuleStartTime="00:18.058"
+			timeWallClock="14:25:09"
+			time="00:18.058"
+			level="Error"
+			category="Module"
+			errimg="images_Audiogra_77dc9cd7\Audiogra_77dc9cd7_b47e23c9_trace.jpg"
+			errthumb="images_Audiogra_77dc9cd7\Audiogra_77dc9cd7_b47e23c9_trace_thumb.jpg">
+			<message>
+				Parsing RxPath '//ContentTextBlock[i]' failed.<br/>line 1:20 mismatched input ']' expecting StrongOp&#10;
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.RxPath..ctor(String path)
+   at Ranorex.Core.RxPath.op_Implicit(String path)
+   at LaunchFSW.audiogramgains.gains() in D:\Ranorex\LaunchFSW\LaunchFSW\UserCodeCollection1.cs:line 53
+   at LaunchFSW.AudiogramGains.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\UserCodeCollection1.cs"
+				codeline="53"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

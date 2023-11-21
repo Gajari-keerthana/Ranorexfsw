@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.5m"
+		durationms="88203"
+		type="root"
+		rid="c45697c13ecc797"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/8/2023 12:17:03 PM"
+		timestampiso="2023-11-08T06:47:03"
+		endtime="11/8/2023 12:18:32 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AudiogramGains">
+		<detail>
+			AudiogramGains
+		</detail>
+		<errormessage>
+			Failed to find item 'LaunchFSWRepository.TargetViewer.DataGrid1.Cell19'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="01:28.127"
+			timeRelativeToTestModuleStartTime="01:28.127"
+			timeWallClock="12:18:32"
+			time="01:28.127"
+			level="Error"
+			category="Module"
+			errimg="images_Audiogra_ef50d558\Audiogra_ef50d558_c972d2ba_trace.jpg"
+			errthumb="images_Audiogra_ef50d558\Audiogra_ef50d558_c972d2ba_trace_thumb.jpg">
+			<message>
+				Failed to find item 'LaunchFSWRepository.TargetViewer.DataGrid1.Cell19'.<br/>No element found for path '?/?/tabpagelist/tabpage[1]/container/table[3]/row[2]/cell[@classname='DataGridCell' and @text='19' and @columnindex='1']' at step 'cell[@classname='DataGridCell' and @text='19' and @columnindex='1']' after 121 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at LaunchFSW.LaunchFSWRepositoryFolders.DataGrid1Folder.get_Cell19() in D:\Ranorex\LaunchFSW\LaunchFSW\LaunchFSWRepository.cs:line 2015&#13;&#10;   at LaunchFSW.Datagains.targetrules() in D:\Ranorex\LaunchFSW\LaunchFSW\Datagains.cs:line 91&#13;&#10;   at LaunchFSW.AudiogramGains.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs:line 90&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Datagains.cs"
+				codeline="91"
+				type="repoitem"
+				path="/form[@name='Target Viewer' and @classname='Window' and @orientation='None']/?/?/tabpagelist/tabpage[1]/container/table[3]/row[2]/cell[@classname='DataGridCell' and @text='19' and @columnindex='1']"
+				itempath="row[2]/cell[@classname='DataGridCell' and @text='19' and @columnindex='1']"
+				fullname="LaunchFSWRepository.TargetViewer.DataGrid1.Cell19"
+				id="b91bf8254fc54163b402abeb97e60dd0"
+				timeout="90000"
+				failedStep="cell[@classname='DataGridCell' and @text='19' and @columnindex='1']"
+				bestPathPrefix="?/?/tabpagelist/tabpage[1]/container/table[3]/row[2]"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

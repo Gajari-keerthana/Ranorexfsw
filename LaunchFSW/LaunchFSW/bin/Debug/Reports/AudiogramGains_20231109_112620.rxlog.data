@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="26.41s"
+		durationms="26414"
+		type="root"
+		rid="248c20afecc47238"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/9/2023 11:26:22 AM"
+		timestampiso="2023-11-09T05:56:22"
+		endtime="11/9/2023 11:26:49 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AudiogramGains">
+		<detail>
+			AudiogramGains
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.582"
+			timeRelativeToTestModuleStartTime="00:03.582"
+			timeWallClock="11:26:26"
+			time="00:03.582"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.599"
+			timeRelativeToTestModuleStartTime="00:06.599"
+			timeWallClock="11:26:29"
+			time="00:06.599"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.ContentTextBlock1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='All']"
+				itempath="?/?/text[@name='All']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.ContentTextBlock1"
+				id="f20ffcb695de4c0b83eb266b9e7a134e"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.275"
+			timeRelativeToTestModuleStartTime="00:12.275"
+			timeWallClock="11:26:35"
+			time="00:12.275"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.284"
+			timeRelativeToTestModuleStartTime="00:15.284"
+			timeWallClock="11:26:38"
+			time="00:15.284"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+Alt+Shift+T' Press.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.314"
+			timeRelativeToTestModuleStartTime="00:15.314"
+			timeWallClock="11:26:38"
+			time="00:15.314"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs"
+				codeline="104"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

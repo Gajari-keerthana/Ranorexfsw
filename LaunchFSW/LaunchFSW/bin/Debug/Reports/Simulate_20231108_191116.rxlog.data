@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.99s"
+		durationms="5987"
+		type="root"
+		rid="b5088487efc94d4"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/8/2023 7:11:19 PM"
+		timestampiso="2023-11-08T13:41:19"
+		endtime="11/8/2023 7:11:25 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Simulate">
+		<detail>
+			Simulate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.707"
+			timeRelativeToTestModuleStartTime="00:03.707"
+			timeWallClock="19:11:22"
+			time="00:03.707"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Device_Name
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.729"
+			timeRelativeToTestModuleStartTime="00:03.729"
+			timeWallClock="19:11:22"
+			time="00:03.729"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 10s for the attribute 'Visible' to equal the specified value 'True'. Associated repository item: 'WindowAutomationIdsStandAloneShell.Text2'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/text[@name='Physical Properties']"
+				itempath="text[@name='Physical Properties']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Text2"
+				id="bbb915510ce8473894b65da061d7d504"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="126"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.423"
+			timeRelativeToTestModuleStartTime="00:05.423"
+			timeWallClock="19:11:24"
+			time="00:05.423"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.StateMachineAutomationIdsContinueAction' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StateMachineAutomationIds.ContinueAction']"
+				itempath="button[@automationid='StateMachineAutomationIds.ContinueAction']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.StateMachineAutomationIdsContinueAction"
+				id="0e4290788f8c4b58ac1b9ff83b5dcc8d"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="129"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

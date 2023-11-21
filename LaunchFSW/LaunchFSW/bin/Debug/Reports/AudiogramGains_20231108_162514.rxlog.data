@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.01s"
+		durationms="26005"
+		type="root"
+		rid="2a820b32d1914d1a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/8/2023 4:25:16 PM"
+		timestampiso="2023-11-08T10:55:16"
+		endtime="11/8/2023 4:25:42 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AudiogramGains">
+		<detail>
+			AudiogramGains
+		</detail>
+		<errormessage>
+			Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.601"
+			timeRelativeToTestModuleStartTime="00:03.601"
+			timeWallClock="16:25:20"
+			time="00:03.601"
+			level="Info"
+			category="Keyboard"
+			errimg="images_Audiogra_7bb749f4\Audiogra_7bb749f4_6d9e0144_trace.jpg"
+			errthumb="images_Audiogra_7bb749f4\Audiogra_7bb749f4_6d9e0144_trace_thumb.jpg">
+			<message>
+				Key sequence '{LControlKey down}{LShiftKey down}{LMenu down}{Tkey}{LMenu up}{LShiftKey up}{LControlKey up}' with focus on 'WindowAutomationIdsStandAloneShell'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']"
+				itempath="/form[@name='ReSound Smart Fit 1.17']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Self"
+				id="b9d4415a519a4376a30dbb92f0511cbd"
+				timeout="30000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.942"
+			timeRelativeToTestModuleStartTime="00:25.942"
+			timeWallClock="16:25:42"
+			time="00:25.942"
+			level="Error"
+			category="Module"
+			errimg="images_Audiogra_7bb749f4\Audiogra_7bb749f4_68f42fe6_trace.jpg"
+			errthumb="images_Audiogra_7bb749f4\Audiogra_7bb749f4_68f42fe6_trace_thumb.jpg">
+			<message>
+				Index was out of range. Must be non-negative and less than the size of the collection.<br/>Parameter name: index
+			</message>
+			<metainfo
+				stacktrace="   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at LaunchFSW.Datagains.targetrules() in D:\Ranorex\LaunchFSW\LaunchFSW\Datagains.cs:line 161
+   at LaunchFSW.AudiogramGains.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs:line 90
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Datagains.cs"
+				codeline="161"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

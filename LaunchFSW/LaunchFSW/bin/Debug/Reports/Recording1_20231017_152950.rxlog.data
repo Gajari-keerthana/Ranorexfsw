@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="64937"
+		type="root"
+		rid="172b928d9ae0b670"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/17/2023 3:29:52 PM"
+		timestampiso="2023-10-17T09:59:52"
+		endtime="10/17/2023 3:30:57 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to find item 'LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Text'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.631"
+			timeRelativeToTestModuleStartTime="00:04.631"
+			timeWallClock="15:29:57"
+			time="00:04.631"
+			level="Info"
+			category="Application"
+			errimg="images_Recordin_ef027c01\Recordin_ef027c01_b90afa58_trace.jpg"
+			errthumb="images_Recordin_ef027c01\Recordin_ef027c01_b90afa58_trace_thumb.jpg">
+			<message>
+				Run application 'C:\Program Files (x86)\ReSound\SmartFit\SmartFitSA.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.668"
+			timeRelativeToTestModuleStartTime="00:04.668"
+			timeWallClock="15:29:57"
+			time="00:04.668"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_ef027c01\Recordin_ef027c01_b90afa58_trace.jpg"
+			errthumb="images_Recordin_ef027c01\Recordin_ef027c01_b90afa58_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.Text' at 42;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@automationid='Text']"
+				itempath="?/?/text[@automationid='Text']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Text"
+				id="4703977127ce419a9de518bf4a192612"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.733"
+			timeRelativeToTestModuleStartTime="01:04.733"
+			timeWallClock="15:30:57"
+			time="01:04.733"
+			level="Info"
+			category="User"
+			errimg="images_Recordin_ef027c01\Recordin_ef027c01_85d5da26_trace.jpg"
+			errthumb="images_Recordin_ef027c01\Recordin_ef027c01_85d5da26_trace_thumb.jpg">
+			<message>
+				Item 'Text' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="87"
+				loglvl="Info"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.850"
+			timeRelativeToTestModuleStartTime="01:04.850"
+			timeWallClock="15:30:57"
+			time="01:04.850"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_ef027c01\Recordin_ef027c01_b8fae69a_trace.jpg"
+			errthumb="images_Recordin_ef027c01\Recordin_ef027c01_b8fae69a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Text'.<br/>No element found for path '/form[@name='ReSound Smart Fit 1.17']/?/?/text[@automationid='Text']' at step 'text[@automationid='Text']' after 232 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at LaunchFSW.LaunchFSWRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.get_Text() in D:\Ranorex\LaunchFSW\LaunchFSW\LaunchFSWRepository.cs:line 131&#13;&#10;   at LaunchFSW.Recording1.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs:line 87&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="87"
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@automationid='Text']"
+				itempath="?/?/text[@automationid='Text']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Text"
+				id="4703977127ce419a9de518bf4a192612"
+				timeout="60000"
+				failedStep="text[@automationid='Text']"
+				bestPathPrefix="?/?"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

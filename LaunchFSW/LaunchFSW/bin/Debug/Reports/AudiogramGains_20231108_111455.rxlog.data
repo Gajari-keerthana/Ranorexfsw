@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="20.71s"
+		durationms="20709"
+		type="root"
+		rid="1845a838474ca510"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/8/2023 11:14:57 AM"
+		timestampiso="2023-11-08T05:44:57"
+		endtime="11/8/2023 11:15:18 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AudiogramGains">
+		<detail>
+			AudiogramGains
+		</detail>
+		<errormessage>
+			The process cannot access the file 'C:\Users\I-Ray\Desktop\New folder\targetgains.csv' because it is being used by another process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.610"
+			timeRelativeToTestModuleStartTime="00:03.610"
+			timeWallClock="11:15:00"
+			time="00:03.610"
+			level="Info"
+			category="Keyboard"
+			errimg="images_Audiogra_4d4ad555\Audiogra_4d4ad555_70e0207e_trace.jpg"
+			errthumb="images_Audiogra_4d4ad555\Audiogra_4d4ad555_70e0207e_trace_thumb.jpg">
+			<message>
+				Key sequence '{LControlKey down}{LShiftKey down}{LMenu down}{Tkey}{LMenu up}{LShiftKey up}{LControlKey up}' with focus on 'WindowAutomationIdsStandAloneShell'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']"
+				itempath="/form[@name='ReSound Smart Fit 1.17']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Self"
+				id="b9d4415a519a4376a30dbb92f0511cbd"
+				timeout="30000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.621"
+			timeRelativeToTestModuleStartTime="00:20.621"
+			timeWallClock="11:15:18"
+			time="00:20.621"
+			level="Error"
+			category="Module"
+			errimg="images_Audiogra_4d4ad555\Audiogra_4d4ad555_9a46b9b9_trace.jpg"
+			errthumb="images_Audiogra_4d4ad555\Audiogra_4d4ad555_9a46b9b9_trace_thumb.jpg">
+			<message>
+				The process cannot access the file 'C:\Users\I-Ray\Desktop\New folder\targetgains.csv' because it is being used by another process.
+			</message>
+			<metainfo
+				stacktrace="   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path)
+   at LaunchFSW.Datagains.targetrules() in D:\Ranorex\LaunchFSW\LaunchFSW\Datagains.cs:line 73
+   at LaunchFSW.AudiogramGains.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs:line 90
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Datagains.cs"
+				codeline="73"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

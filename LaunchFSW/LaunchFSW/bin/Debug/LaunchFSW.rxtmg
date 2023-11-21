@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="LaunchFSW"
+      id="2a551b5c-7ab1-45f5-a887-6597b5864fc6"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="LaunchFSW"
+      id="2a551b5c-7ab1-45f5-a887-6597b5864fc6"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="14.84s"
+		durationms="14839"
+		type="root"
+		rid="27c928230aed8a8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/8/2023 3:38:34 PM"
+		timestampiso="2023-11-08T10:08:34"
+		endtime="11/8/2023 3:38:49 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AudiogramGains">
+		<detail>
+			AudiogramGains
+		</detail>
+		<errormessage>
+			The element does not support the required capability 'container'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.763"
+			timeRelativeToTestModuleStartTime="00:14.763"
+			timeWallClock="15:38:49"
+			time="00:14.763"
+			level="Error"
+			category="Module"
+			errimg="images_Audiogra_c0aabe8d\Audiogra_c0aabe8d_398d6f5a_trace.jpg"
+			errthumb="images_Audiogra_c0aabe8d\Audiogra_c0aabe8d_398d6f5a_trace_thumb.jpg">
+			<message>
+				The element does not support the required capability 'container'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Adapter..ctor(Element element)
+   at Ranorex.Container.op_Implicit(String path)
+   at LaunchFSW.Datagains.targetrules() in D:\Ranorex\LaunchFSW\LaunchFSW\Datagains.cs:line 48
+   at LaunchFSW.AudiogramGains.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs:line 90
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Datagains.cs"
+				codeline="48"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="38.54s"
+		durationms="38544"
+		type="root"
+		rid="56cd8cac7e91b68"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/15/2023 4:36:22 PM"
+		timestampiso="2023-11-15T11:06:22"
+		endtime="11/15/2023 4:37:01 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Couplergains">
+		<detail>
+			Couplergains
+		</detail>
+		<errormessage>
+			Failed to find item 'LaunchFSWRepository.Directionality.PARTScrollViewer'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.704"
+			timeRelativeToTestModuleStartTime="00:03.704"
+			timeWallClock="16:36:26"
+			time="00:03.704"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Directionality.MenuAutomationIdsViewAction' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/menuitem[@automationid='MenuAutomationIds.ViewAction']"
+				itempath="?/?/menuitem[@automationid='MenuAutomationIds.ViewAction']"
+				fullname="LaunchFSWRepository.Directionality.MenuAutomationIdsViewAction"
+				id="7a87dcaafa4147a79a6ab9967893f094"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.628"
+			timeRelativeToTestModuleStartTime="00:06.628"
+			timeWallClock="16:36:29"
+			time="00:06.628"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmartFit.SomeContainer' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container"
+				itempath="menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container"
+				fullname="LaunchFSWRepository.SmartFit.SomeContainer"
+				id="41431212ff1647e996d808a86b4d381c"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.244"
+			timeRelativeToTestModuleStartTime="00:07.244"
+			timeWallClock="16:36:30"
+			time="00:07.244"
+			level="Info"
+			category="Mouse"
+			errimg="images_Couplerg_b9dc960\Couplerg_b9dc960_a6332670_trace.jpg"
+			errthumb="images_Couplerg_b9dc960\Couplerg_b9dc960_a6332670_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SmartFit.MenuAutomationIdsViewAutomationIdsCoup1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.InsertionGain']"
+				itempath="menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.InsertionGain']"
+				fullname="LaunchFSWRepository.SmartFit.MenuAutomationIdsViewAutomationIdsCoup1"
+				id="1230175bbb3b4e7a80a6abde14e40479"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.990"
+			timeRelativeToTestModuleStartTime="00:37.990"
+			timeWallClock="16:37:00"
+			time="00:37.990"
+			level="Info"
+			category="User"
+			errimg="images_Couplerg_b9dc960\Couplerg_b9dc960_b3befd9d_trace.jpg"
+			errthumb="images_Couplerg_b9dc960\Couplerg_b9dc960_b3befd9d_trace_thumb.jpg">
+			<message>
+				Item 'PARTScrollViewer' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\GainsCoupler.cs"
+				codeline="42"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.462"
+			timeRelativeToTestModuleStartTime="00:38.462"
+			timeWallClock="16:37:01"
+			time="00:38.462"
+			level="Error"
+			category="Module"
+			errimg="images_Couplerg_b9dc960\Couplerg_b9dc960_8d17ef3e_trace.jpg"
+			errthumb="images_Couplerg_b9dc960\Couplerg_b9dc960_8d17ef3e_trace_thumb.jpg">
+			<message>
+				Failed to find item 'LaunchFSWRepository.Directionality.PARTScrollViewer'.<br/>No element found for path 'container[2]' at step 'container[2]' after 101 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.get_PARTScrollViewer() in D:\Ranorex\LaunchFSW\LaunchFSW\LaunchFSWRepository.cs:line 914&#13;&#10;   at LaunchFSW.GainsCoupler.Viewgains() in D:\Ranorex\LaunchFSW\LaunchFSW\GainsCoupler.cs:line 42&#13;&#10;   at LaunchFSW.Couplergains.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs:line 94&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\GainsCoupler.cs"
+				codeline="42"
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/container[2]"
+				itempath="container[2]"
+				fullname="LaunchFSWRepository.Directionality.PARTScrollViewer"
+				id="e9981f070eec47aebbc9758f19a3d76e"
+				timeout="60000"
+				failedStep="container[2]"
+				bestPathPrefix=""
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

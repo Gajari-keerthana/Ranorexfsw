@@ -1,0 +1,1033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="aca7f612-7f8c-4f0b-ae61-a25110b95a89"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Audiogram"
+	namespace="LaunchFSW">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="277b7650-9888-4f37-8dfd-787af2954a1a"
+		sx="1375"
+		sy="89"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="51f143a3-1df0-4734-b387-d3ffc3af29b5"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1354,80,75,18"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Audiogram
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Audiogram
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Audiogram
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						1272
+					</attribute>
+				</element>
+				<path>
+					/form[@name='ReSound Smart Fit 1.17']/?/?/listitem[@automationid='StandAloneAutomationIds.DetailsAutomationIds.AudiogramAction']/?/?/text[@automationid='Text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="b86dd177-0a04-42a1-8c34-8179fb4b9431">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADFANgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDmqKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAorS8q
+P+4v5UeVH/cX8qnmOn6u+5m0VpeVH/cX8qPKj/uL+VHMH1d9zNorS8qP+4v5UeVH/cX8qOYPq77m
+bRWl5Uf9xfyo8qP+4v5UcwfV33M2itLyo/7i/lR5Uf8AcX8qOYPq77mbRWl5Uf8AcX8qPKj/ALi/
+lRzB9XfczaK0vKj/ALi/lR5Uf9xfyo5g+rvuZtFaXlR/3F/Kjyo/7i/lRzB9XfczaK0vKj/uL+VH
+lR/3F/KjmD6u+5m0VpeVH/cX8qPKj/uL+VHMH1d9zNorS8qP+4v5UeVH/cX8qOYPq77mbRWl5Uf9
+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
+XzI/76/nR5kf99fzo5fMPbL+Vf18zi3sbhbdo47W5JJzzE3+FVv7Ovv+fO4/79N/hXe+ZH/fX86P
+Mj/vr+dNKxFSo5taWscF/Z19/wA+dx/36b/Cj+zr7/nzuP8Av03+Fd75kf8AfX86PMj/AL6/nTMz
+gv7Ovv8AnzuP+/Tf4Uf2dff8+dx/36b/AArvfMj/AL6/nR5kf99fzoA4L+zr7/nzuP8Av03+FH9n
+X3/Pncf9+m/wrvfMj/vr+dHmR/31/OgDgv7Ovv8AnzuP+/Tf4UV3vmR/31/OigBvlr6UeWvpUH9o
+WX/P5b/9/V/xo/tCy/5/Lf8A7+r/AI0AT+WvpR5a+lQf2hZf8/lv/wB/V/xo/tCy/wCfy3/7+r/j
+QBP5a+lHlr6URyRyruidXX1U5FOoAb5a+lHlr6U6igBvlr6UeWvpTqKAG+WvpR5a+lOooAb5a+lH
+lr6U6igBvlr6UeWvpTqKAG+WvpR5a+lOooAb5a+lHlr6U6igBvlr6UeWvpTqKAG+WvpR5a+lOooA
+b5a+lHlr6U6igBvlr6UU6igB1FFFABRRRQBVfC6lHtAHmROWx3wVx/M1YqvL/wAhOD/rjJ/6ElWK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAdRVT7FF/fuP/AAJk
+/wDiqPsUX9+4/wDAmT/4qgC3RVT7FF/fuP8AwJk/+Ko+xRf37j/wJk/+KoAdLzqUPtDJn80/wNT1
+HFBHDnYDk9WZixP4nmpKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="827f3f9e-d94d-45bf-911f-507f34e5cb79"
+		sx="112"
+		sy="630"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="90070278-86eb-4ad8-abf6-e31d5669d47b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="26"
+				prefcap="text"
+				rect="105,616,6,14"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						ContentTextBlock
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5208
+					</attribute>
+				</element>
+				<path>
+					/form[@name='ReSound Smart Fit 1.17']/container[1]/text[27]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}{Tab}{NumPad6}{NumPad0}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		repoItemActivation="EnsureVisible"
+		searchpropertyid="424e26a3-51b5-48ee-9348-64cbaee28998">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b9d4415a-519a-4376-a30d-bb92f0511cbd"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="8"
+				minattr="3"
+				prefcap="form"
+				rect="-8,-8,1616,854"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGpSURBVDhPYwjmFn07Q0zrT5+Y0i9S8GQxpd9p
+PFKfGECcNWI6/8nFDB2iSj+xSawR1/2/VkIPjMF8UW0EhqpZJKbzD8UAmIa1QM2rhDT+r+RV/r9K
+UP3/Ci6l/7dmLvr/4+27/4/WbgHLgSwA6YEbsFpEC6hB5f8qfrX/y9jk/p/Orf7/8fqt/893HwTb
++njD9v8g8PbMRbChSAao/FzJp/p/l43f/9cnzvx/d/Hq/x2WPv8v1nWBNfx8/+H/Wkl9oM1bwfw3
+p85jGrCCW+n/Ps8osAIQ2O8d8/98ZRuY/ePNO4gB67eB+VhdADbAA2HAPq/o/xeq28FsuAsIGoDs
+ApABVXQ1gAfkhUiwAhAAeQEeBq/fQgxYswXMf3PyHHGBSEIYKP9cJajxf4uu4//LzX3/r3RM/r9F
+z+n/Hpew/9d6poNdAlJ8NCb7/7XeGf9PZVb8Xy2sBdYMNQCYkIAKVgtp/l/GKvt/GYsMmL0SmKCW
+MkuDExVIIciVIP5yTgW4ZrAB8MwENGStlD4Yg50ngcQHyq+VBCZxEB9IoxgAypLIAqTgJiGlHwCd
+Dl+BB3LG1wAAAABJRU5ErkJggg==
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Maximized
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						ReSound Smart Fit 1.17
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						WindowAutomationIds.StandAloneShell
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						Window
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Window
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						window
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						ReSound Smart Fit 1.17
+					</attribute>
+					<attribute
+					name="nativewindowhandle"
+					type="System.Int32">
+						984282
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						9460
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						WindowAutomationIds.StandAloneShell
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						HwndWrapper[SmartFitSA.exe;;7cdb983c-2c33-4620-9c65-7a2ef625b899]
+					</attribute>
+					<attribute
+					name="controlname"
+					type="System.String">
+						ReSound Smart Fit 1.17
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						984282
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						9460
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						SmartFitSA
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, WindowEdge, ApplicationWindow
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, TiledWindow, Maximize, ClipChildren, ClipSiblings, Visible
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						ReSound Smart Fit 1.17
+					</attribute>
+					<limitation
+					name="WPF Legacy"
+					processId="9460"
+					processName="SmartFitSA"
+					technology="WPF">
+						You are using the legacy UIA plug-in to identify WPF elements. This limits object recognition. If you experience problems, switch to the native WPF plugin in Ranorex Studio under Settings &gt; Plugins &gt; WPF &gt; WPF Legacy/UIA interaction &gt; WpfImprovedOnly.
+					</limitation>
+				</element>
+				<path>
+					/form[@name='ReSound Smart Fit 1.17']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="4caa882d-0f46-42ba-8372-7f0a6d3ef135">
+				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
+igAooooAKKKKACiiigApj/fX8afTH++v40ALRRRQAUUUUAFFFFABRRRQBXb/AJCkH/XGT/0JKtVB
+NG5kSWLb5iAjDdCDjIz26Cmebe/8+9v/AN/2/wDiKALVFVfNvf8An3t/+/7f/EUebe/8+9v/AN/2
+/wDiKALVFVfNvf8An3t/+/7f/EUebe/8+9v/AN/2/wDiKALVUZJEtdSeW4YJHLGqq7cKCCcgnt1q
+Tzb3/n3t/wDv+3/xFHm3v/Pvb/8Af9v/AIigBkkqTXVq8LK4+fDA5B4qlp6BpYXe4gFyCTIixESk
+4OQx3dPwx0x2rQ829/597f8A7/t/8RR5t7/z72//AH/b/wCIoAzrSRHvraWLyEaQtvSJTuXgnDtn
+k5HQir2kxRpYxuqAO65Zscn8af5t7/z72/8A3/b/AOIo829/597f/v8At/8AEUAWqKq+be/8+9v/
+AN/2/wDiKPNvf+fe3/7/ALf/ABFAFqiqvm3v/Pvb/wDf9v8A4ijzb3/n3t/+/wC3/wARQBaoqr5t
+7/z72/8A3/b/AOIo829/597f/v8At/8AEUAFt/x83n/XYf8AotKsVFBEYw7OQXkbc2OmcAfyAqWg
+AooooAKKKKACiiigAoj+4Pxooj+4PxoAdRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUx/vr+NPpj/fX8aAFooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiP7g/GiiP7g/GgB1FF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABTH++v40+m
+P99fxoAWiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKI/uD8aKI/uD8aAHUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFMf76/jT6Y/31/GgBaKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoj+4Pxooj+4Px
+oAdRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUx/v
+r+NPpj/fX8aAFooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiP7g/GiiP7g/GgB1FFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABTH++v40+mP99fxoAWiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKI/uD8aK
+I/uD8aAHUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFMf76/jT6Y/31/GgBaKKKACiiigAooooAKKKKACiiigAopk0nlRF8ZOQAPUk4A/M1GY708ie3X2
+8ljj8dwoAnoqpMbmCJpZru2RF5JMDf8AxdORbtlDrcW7qRkYiIz+O40AWaKjgl86IPjByVIznBBw
+f1FLLLHCm+WRY1/vMcCgB9FNjkSVA8Tq6HoynINOoAKKKKACiopZHDpFFt8xwTlugAxk+/UVBO9x
+bJvnvLWNSQAWgbr/AN90AXKKriO9IyLm3/78N/8AF0kjXNvG0s0kMiIMsFjKEDuepoAs0UUUAFFF
+FABRRRQAUUUUAFFFFABRH9wfjRRH9wfjQA6iiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigApj/fX8afTH++v40ALRRRQAUUUUAFFFFABRRRQAUUUUAVr/8A
+1Cf9dov/AEYtVZ9Wuop5I10q4kVWIDjOG9+lXLxC9vwCdro+AMkhWBP8qP7Qsh1u4AfQyAGgCit9
+NfOLa50mZIpOGZ84Hv0qtps0ljqzadExubcngjrH9a0L28t5rSSO31G2ikYYDeYv+NR6Z/ZthBsj
+u4Hkb77eYCWNAFmw/wBQ/wD12l/9GNTAA+rsJAD5cQMYPbJO4j8gKlslK2/zAjc7uARg4ZiR+hp0
+9vFPtMinK8qysVI+hHNAEU7ObqO3icxb1Z2dQCeMDAzx3/SoHnuFBiEw3rcLH5hUcqQDyOmeatNZ
+wNGqFW+U5Db23A/72c/rUc9kjwxxIoCLIHbJOT+PXPvQBDJNPbtMnnGQRBJSzKM7STuBwMdATVm1
+laZ5n3ZjD7UH06n88/lSG28qCRbZFZ5PvGVyc8Y5JyT9KltoVt7eOFeiLjPr70ARSErqMRALEQSn
+A78pWNZH+19QlmvDzB9y2ramIiu4p3OI1R0LdhkqRn0Hy1nahHYz3CXVrqFtBcKRlvMGCPfmgBw1
+m7AwNGuf1/wpX1Ce7srxJbCa3UW7nc+cHjp0q+NQsgBm9tyfXzV/xqK7ure5s5oIJ45ZJEKKqMGO
+SMdu1AFyiiigAooooAKKKKACiiigAooooAKI/uD8aKI/uD8aAHUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFMf76/jT6Y/31/GgBaKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+j+4Pxooj+4PxoAdRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUx/vr+NPpj/fX8aAFooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiP7g/GiiP7g/GgB1FFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABTH++v40+mP99fxoAWiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKI/uD8aKI/uD8aAHUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFMf76/jT6Y/31/GgBaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoj+4Pxooj+4PxoAdRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUx/vr+NPpj/fX8aAFooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiP7g/GiiP7g/GgB1FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABTH++v40+mP99fxoAWiiigAooooAKKKKACiiigAooooAKKbI4QAkE5OOKb
+53/TKT/vmgCSio1lBcKUdSemRipKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAoj+4Pxooj+4PxoAdRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUx/vr+NPpj/fX8aAFooooAKKKKACiiigAooooAKKKKAI5usf++KmqGYMQpUZ
+IYHGaPNl/wCeP/jwoAJf9fF+P8qoXpMepx3APEUeXHqpbB/Lr+FXv3jyozR7Que+aGgR5TI2TuTY
+QehFAFJmMurwyZ+RGaNfc7ck/wAh+FOivna7RNySxyFgCkbADAz948N07VYjsookgVd2Ic4yeuRz
+n86ZHYJG0R86ZhDkRqSMKMYxwP580AVJbp5bCV5njBUoWjCENH8w4OTz9cCpWv5BCkoVQs7AQgIz
+EDBO4gdenQf/AKp/sKsG8yWWRiANzYyADnHAHehrCM7tryIC29QpHyN6jjv6dKAIUvJ2UR7QJXk2
+I7RsikYznaeeMEdafZ+aL66ExQsAnKjAPXt2qVrQPEFeaVnDb1kONyn24x+lLBbCCSSTzHkeTG4u
+Rzj6CgCeiiigAooooAKKKKACiiigAooooAKKKKACiiigAoj+4Pxooj+4PxoAdRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUx/vr+NPpj/fX8aAFooooA
+KKKKACiiigAooooAKKKKAELBRliB9aTzI/76/nTJxnyweRvFS+VH/wA81/KgBodCcBlJ9jTqidVW
+eLaoHXoPaqt3czQXykEGBY90q47Zxu/CgC/RVQ3Xlz3JkbMcaoVAGeuenrnipIbnzJfKeKSF9u4B
+8cj2wTQBPRWfdz7L9YnvPs0Zi3fwjJz/ALQNSxXUi20PnRu87g4RQASB3wcY7fnQBboqr9uQhPLi
+ld23fuwBuXHBzk46+9D3oWR41gmkaMAsFA4BGe5/TrQBaoqs14h2CFHnLrvAjxwvqckCkN/HiLZH
+I7S7tqqBnI6g5PFAFqiqgv0ZIzHFLI7gnYAARg4OckDg8U6W9WMtiKVwgzIygYTvzk+npmgCzRSA
+ggEcg0tABRRRQAUUUUAFFFFABRRRQAUR/cH40UR/cH40AOooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKY/31/Gn0x/vr+NAC0UUUAFFFFABRRRQAUUUU
+AFFFFAEU5ChCegcGnfaYf7/6Gn0UAQtIkk8Ww5xnPHtQYSbwynBQx7MfjU1FAGammyKsyeau3chh
+JySNpyAf5fSrMcUz3KzXAjQopVVRi3XGSSQPSrNFAFd7ffeGRtpjMJjKnvk1VbT5GERkSC4MO5FW
+XkMh6EnBwwwPWtKigDPls3a3SOO3toyMkFGKeWT3Ugf4ZpFF0t5ciDy3O1ATISMHHXgHP04rRooA
+ox2ktoytbbJP3SxsJGK/dzg5APqeMU6G0eOSFyykrvL/AFY549quUUAZr2MxhMYSJiXdlfeVaPJy
+CCB/hQ+nETyP5FrceZglph8ynGPQ5HGccVpUUAAGBgcAUUUUAFFFFABRRRQAUUUUAFFFFABRH9wf
+jRRH9wfjQA6iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigApj/fX8afTGOXXHagBaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAoj+4PxopIj8uPQ0APooooAKKKKACiiigAooooAKK
+KKACiiigAooooAh8s/33/wC+jR5Z/vv/AN9GpKKAI/LP99/++jR5Z/vv/wB9GpKKAI/LP99/++jR
+5Z/vv/30akooAj8s/wB9/wDvo0eWf77/APfRqSigCPyz/ff/AL6NHln++/8A30akooAj8s/33/76
+NHln++//AH0akooAj8s/33/76NOVQtOooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApjJk5BIPsafRQBH5Z/vv/30aPLP
+99/++jUlFAEfln++/wD30aPLP99/++jUlFAEfln++/8A30aPLP8Aff8A76NSUUAR+Wf77/8AfRo8
+s/33/wC+jUlFAEfln++//fRo8s/33/76NSUUAR+Wf77/APfRo8s/33/76NSUUAR+Wf77/wDfRoqS
+igBM0Zp20ego2j0FADc0Zp20ego2j0FADc0Zp20ego2j0FADc0Zp20ego2j0FADc0Zp20ego2j0F
+ADc0Zp20ego2j0FADc0tLtHoKa3ysPegBaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooQbhk0AFFLtHoKNo9BQAlFLtHo
+KNo9BQAlFLtHoKNo9BQAlFLtHoKNo9BQAlFLtHoKNo9BQAlFLtHoKNo9BQAlFLtHoKKAGjL5IYqM
+44pdjf8APRv0/wAKIvun/eP8zTqAG7G/56N+n+FGxv8Ano36f4U6igBuxv8Ano36f4UhymCWLDIH
+NPpsv3R/vD+YoAViRgDqTik2N/z0b9P8KH+9H/vf0NOoAbsb/no36f4UbG/56N+n+FOooAbsb/no
+36f4UbG/56N+n+FOooARCTkHqDimS/fT8acn3pP97+gpsv30/GgB1FFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUR/cH40UR
+/cH40ABJLbQcYGTRsb/no36f4UD/AFzf7o/rTqAG7G/56N+n+FGxv+ejfp/hTqKAG7G/56N+n+FG
+1h0cn6gU6igBu8eXv7YzRtY9XI+gFM/5dP8Atn/SpaAG7G/56N+n+FGxv+ejfp/hTqKAG7G/56N+
+n+FGxv8Ano36f4U6igBmJB0YH6iin0UANi+6f94/zNOpsX3T/vH+Zp1AFTzH+1FmU7A4QESEY4/u
+9D+NN052miRpHbciAbSeuR94+uasmCMy+bt+br1OM9M46Z96EgjTZtXGwbV5PT096RfMrWJKbL90
+f7w/mKdTZfuj/eH8xTIB/vR/739DTqa/3o/97+hp1AEN0SIcKSCWA4OCeegqo00kTRDewHzhtxzs
+GVwT64B/z1q/IiyLtcZH1xTVgiUgheQCOST1659elIuMklqPRdiBQScdycmlpqIsaBF4UdBnNOpk
+DU+9J/vf0FNl++n405PvSf739BTZfvp+NADqKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoj+4Pxooj+4PxoAB/rm/3R/WnU
+0f65v90f1p1AFW+lVFSMzCEyH75bGAOf8PzqvPctJAskbkbraVjtP8Qx/I5rQ2L5nmY+bG3PtTGt
+YW3ZT7wYHk/xdf5VSaAkX7o+lLQOBiipAi/5dP8Atn/Spai/5dP+2f8ASpaAEdSykBiue461S5k0
+6A75DM0Q2bWIJbA5P/16vVCbSEhAA67F2rtkZcD04NNMCNg8d4rvlkchVIkPHHdenrVqo/Ij80SH
+cWHTLEgcY6ZxUlDAKKKKQDY+AR3DH+dOprBD98KfrTdsP92P8hQBJRUe2H+7H+Qo2w/3Y/yFAElN
+k6Adyw/nTdsP92P8hTlCD7gUfSgAfqh7Bv6GnUfWo9sP91PyFAElFR7Yf7sf5CjbD/dj/IUASUVH
+th/ux/kKNsP91PyFADk6uexb+gpsv30/GpB04qOX76fjQA6iiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKI/uD8aKI/uD8aA
+AcSn3UY/WnUjbdvz4x71H/o//TL9KAJaKi/0f/pl+lH+j/8ATL9KAJaCQBk8Cov9H/6ZfpSr5Ofl
+8vPtigA2n7Ntxzsx+lSAgjI6UUxliJ+YJn3AoAfRUe2H+7H+Qo2w/wB2P8hQBJRUe2H+7H+Qo2w/
+3Y/yFADmkRThmANFKoUD5QAPaigAXufelpF6fif50tABRUck8ccioxYs3QKpb8TjoPc0iXMMkxiV
+iXGf4SAcHBwehweuKAJaRugPuKWkbp+I/nQA2Y4T8agqab7g+tQ0AFFFQXV1HbxOSyeYEZ1Qtgtg
+ZoAnooooAnhOU/Gkl++n40Q/cP1ol++n40AOooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiP7g/GiiP7g/GgA6ynPYDH606
+mj/XN/uj+tOoAKKZJKkW3ewXc20e5olmSLAcnJ6BVLE/gKAH0EAjBGRSKwZQy9DS0AMUkwBu+3P6
+U8cVGn/Huv8Auf0qSgAooqKe5it8eaxGQTwpOAOpOOgHrQBLRRRQAhUHqKKWigBF6fif50tIvT8T
+/OloAzruOQXjOvn72VBEUztyCc7scd+/4U62V/NhjMbqYS5dipA5zjB75znj8av0UAFI3T8R/Olp
+G6fiP50AMm+4PrUNTTfcH1qGgArHv3ZFvAJfncEeVgcrs6+v49OK2KR0WRGRxlWGCPUUALRRRQBN
+D9w/WiX76fjRD9w/WiX76fjQA6iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKI/uD8aKI/uD8aAAf65v90f1p1NH+ub/AHR/
+WnUAU7qOaeZlSNSqoVBZivJ7jg5xgURyOkgmmif95GqnahO1hnIwOcc1cop3ARW3KGwRnsRg0tFF
+ICNP+Pdf9z+lSVGn/Huv+5/SpKACqd2WjnL+U8gaJkGxc/Nnge2fU8cVcooAZAhjgjRjkqoB/Kn0
+UUAFFFFACcjtmjJ/un9KOT0wKPm9R+VABk/3T+lGT/dP6UfN6j8qPm9R+VABk/3T+lHJ7Yo+b1H5
+UZI64NACSLuXFReW/p+tTk4pPm9R+VAEPlv6frR5b+n61N83qPyo+b1H5UAQ+W/p+tHlv6frU3ze
+o/Kj5vUflQAka7VxTZfvp+NSA5/Co5fvp+NADqKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoj+4Pxooj+4PxoACCG3AZyME
+Ub2/55t+n+NBJ3bVxnGSTRiT+8v/AHz/APXoAN7f882/T/Gje3/PNv0/xoxJ/eX/AL5/+vRiT+8v
+/fP/ANegA3t/zzb9P8aNzHpGR9SKMSf3l/75/wDr0fvB3U+2Mf1oAULiML6DFGT/AHTQGBXd2IzR
+83qB+FABk/3T+lGT/dP6UfN6j8qPm9R+VABk/wB0/pRk/wB0/pR83qPyo+b1H5UAGW7AfjRRlh2B
+ooAF6fif50tIvT8T/OloAKKhu3dY1WNtrO6ruxnGTz+lJaO7I6SNvaNyu7GMjqOnsaAJ6Run4j+d
+LSN0/EfzoAD1X6/0paQ9V+v9KWgAooqkZpvP8zzD5YmEXl4GMYxnPXOfwx2oAu0UUUAIOrfX+lMl
+++n408dW+v8ASmS/fT8aAHUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRH9wfjRRH9wfjQAD/XN/uj+tOpo/wBc3+6P606g
+AoqpeSsk8SiSRFZWJ8tNxJGMdj6miOSW4Kp5gQiNXdo8HJOemcjHFO2lwLdFIoIUBjuI7+tLSAjT
+/j3X/c/pUlRp/wAe6/7n9KkoAKKKqXTTNL5cMpi2xl8gA5PYHPbr7+9AFuimwv5kKSYxuUNj606g
+AooooARen4n+dLRRQBHPEJo9hLLyCGXqCOQaIIhDHtBZiSSWbqSepoooAkpG6fiP50UUAB6r9f6U
+tFFABUH2RPtHm73xu37MjbuxjPr098UUUAT0UUUAIOrfX+lMl++n40UUAOooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiP7
+g/GiigAH+ub/AHR/WnUUUARTQebIjiV42UEArjoceoPpTfsqAJ5TvEUXaCpHI9DnOaKKtdAJlG1Q
+Mk47nqaWiioAjT/j3X/c/pUlFFABUFxarOQS7odpUlDjKnqP/rjmiigCcAKAAMAcAUUUUAFFFFAH
+/9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d64f182f-6d00-4b02-be30-35134808362a"
+		sx="762"
+		sy="357"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="84546401-03d4-4bff-85d0-2adcd0a2157e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="5"
+				prefcap="button"
+				rect="748,344,28,21"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						ArrowRight
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						StandAloneAutomationIds.AudiogramAutomationIds.CopyRightAction
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						ArrowRight
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5208
+					</attribute>
+				</element>
+				<path>
+					/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CopyRightAction']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f6b2ce92-f3c6-49be-ab2b-26ea4b8256f6"
+		sx="1362"
+		sy="818"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a1a3ba30-900e-4cfe-99b1-b021bd6c950c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="16"
+				prefcap="button"
+				rect="1328,809,120,21"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						StandAloneAutomationIds.DetailsAutomationIds.SaveAction
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5208
+					</attribute>
+				</element>
+				<path>
+					/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.SaveAction']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="dc71df21-d115-4010-aad1-f4aefabe5a77"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="00b33339-f95d-46d6-9907-a5beb04cbe08"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="False"
+				flavor="uia"
+				hasfocus="False"
+				index="17"
+				prefcap="button"
+				rect="0,0,0,0"
+				role="button"
+				snapElem=""
+				valid="False"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+				</element>
+				<path>
+					/form[@name='ReSound Smart Fit 1.17']/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.FitAction']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="734ab302-98e2-4bc5-850b-c001f7726161"
+	name="LaunchFSWRepository"
+	relativepath="LaunchFSWRepository.rxrep">
+		<codegen
+		classname="LaunchFSWRepository"
+		namespace="LaunchFSW">
+		</codegen>
+		<rootfolder
+		id="bf05e781-27b0-430f-9b85-cc0db488c5ce"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Audiogram.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

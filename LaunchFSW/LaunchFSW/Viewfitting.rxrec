@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ea739a7a-b0c9-41e4-8923-adcb7d5f5c36"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Viewfitting"
+	namespace="LaunchFSW">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="viewlist"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="setcouplers_randomly"
+		namespace="LaunchFSW"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="6ede8969-b84f-4ca3-bf82-72fc00992697">
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="734ab302-98e2-4bc5-850b-c001f7726161"
+	name="LaunchFSWRepository"
+	relativepath="LaunchFSWRepository.rxrep">
+		<codegen
+		classname="LaunchFSWRepository"
+		namespace="LaunchFSW">
+		</codegen>
+		<rootfolder
+		id="bf05e781-27b0-430f-9b85-cc0db488c5ce"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Viewfitting.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

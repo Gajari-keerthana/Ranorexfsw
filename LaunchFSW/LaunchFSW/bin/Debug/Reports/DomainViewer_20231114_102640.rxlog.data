@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.8m"
+		durationms="108548"
+		type="root"
+		rid="2b771c7a5fac186c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/14/2023 10:26:42 AM"
+		timestampiso="2023-11-14T04:56:42"
+		endtime="11/14/2023 10:28:31 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="DomainViewer">
+		<detail>
+			DomainViewer
+		</detail>
+		<errormessage>
+			Failed to find item 'LaunchFSWRepository.Directionality.FittingAutomationIdsAdvancedFeaturesAut'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.616"
+			timeRelativeToTestModuleStartTime="00:03.616"
+			timeWallClock="10:26:46"
+			time="00:03.616"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\DomainViewer.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.640"
+			timeRelativeToTestModuleStartTime="00:04.640"
+			timeWallClock="10:26:47"
+			time="00:04.640"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Directionality.NavigationAutomationIdsMainAutomationId' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/list[3]/?/?/radiobutton[@automationid='NavigationAutomationIds.MainAutomationIds.AdvancedFeatures']"
+				itempath="list[3]/?/?/radiobutton[@automationid='NavigationAutomationIds.MainAutomationIds.AdvancedFeatures']"
+				fullname="LaunchFSWRepository.Directionality.NavigationAutomationIdsMainAutomationId"
+				id="f3bd29c0b8b043a1affa7aa0b162eaa4"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\DomainViewer.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.884"
+			timeRelativeToTestModuleStartTime="00:47.884"
+			timeWallClock="10:27:30"
+			time="00:47.884"
+			level="Info"
+			category="User">
+			<message>
+				Item 'NavigationAutomationIdsMainAutomationId' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\DomainViewer.cs"
+				codeline="86"
+				loglvl="Info"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.895"
+			timeRelativeToTestModuleStartTime="00:47.895"
+			timeWallClock="10:27:30"
+			time="00:47.895"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'LaunchFSWRepository.Directionality'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="list[3]/?/?/radiobutton[@automationid='NavigationAutomationIds.MainAutomationIds.AdvancedFeatures']"
+				invertedPath="self::radiobutton[@automationid='NavigationAutomationIds.MainAutomationIds.AdvancedFeatures']/parent::?/parent::?/parent::list/parent::*"
+				basePathToCachedFolder="/form[@name='ReSound Smart Fit 1.17']"
+				invertedBasePath="self::form[@name='ReSound Smart Fit 1.17']/parent::host/self::*"
+				AbsoluteBasePath="/form[@name='ReSound Smart Fit 1.17']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\DomainViewer.cs"
+				codeline="86"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.301"
+			timeRelativeToTestModuleStartTime="00:48.301"
+			timeWallClock="10:27:31"
+			time="00:48.301"
+			level="Info"
+			category="Mouse"
+			errimg="images_DomainVi_1997a24c\DomainVi_1997a24c_1ff55ce3_trace.jpg"
+			errthumb="images_DomainVi_1997a24c\DomainVi_1997a24c_1ff55ce3_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Directionality.FittingAutomationIdsAdvancedFeaturesAut' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/combobox[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.RIGHT_EAR']"
+				itempath="?/?/combobox[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.RIGHT_EAR']"
+				fullname="LaunchFSWRepository.Directionality.FittingAutomationIdsAdvancedFeaturesAut"
+				id="15f7aac070a3443db1ea20990cb3e775"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\DomainViewer.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:48.363"
+			timeRelativeToTestModuleStartTime="01:48.363"
+			timeWallClock="10:28:31"
+			time="01:48.363"
+			level="Info"
+			category="User"
+			errimg="images_DomainVi_1997a24c\DomainVi_1997a24c_10b7c936_trace.jpg"
+			errthumb="images_DomainVi_1997a24c\DomainVi_1997a24c_10b7c936_trace_thumb.jpg">
+			<message>
+				Item 'FittingAutomationIdsAdvancedFeaturesAut' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\DomainViewer.cs"
+				codeline="90"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:48.462"
+			timeRelativeToTestModuleStartTime="01:48.462"
+			timeWallClock="10:28:31"
+			time="01:48.462"
+			level="Error"
+			category="Module"
+			errimg="images_DomainVi_1997a24c\DomainVi_1997a24c_17246f6a_trace.jpg"
+			errthumb="images_DomainVi_1997a24c\DomainVi_1997a24c_17246f6a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'LaunchFSWRepository.Directionality.FittingAutomationIdsAdvancedFeaturesAut'.<br/>No element found for path '/form[@name='ReSound Smart Fit 1.17']/?/?/combobox[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.RIGHT_EAR']' at step 'combobox[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.RIGHT_EAR']' after 277 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.get_FittingAutomationIdsAdvancedFeaturesAut() in D:\Ranorex\LaunchFSW\LaunchFSW\LaunchFSWRepository.cs:line 925&#13;&#10;   at LaunchFSW.DomainViewer.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\DomainViewer.cs:line 90&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\DomainViewer.cs"
+				codeline="90"
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/combobox[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.RIGHT_EAR']"
+				itempath="?/?/combobox[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.RIGHT_EAR']"
+				fullname="LaunchFSWRepository.Directionality.FittingAutomationIdsAdvancedFeaturesAut"
+				id="15f7aac070a3443db1ea20990cb3e775"
+				timeout="60000"
+				failedStep="combobox[@automationid='FittingAutomationIds.AdvancedFeaturesAutomationIds.FeatureItemsAutomationIds.Directionality.RIGHT_EAR']"
+				bestPathPrefix="?/?"
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

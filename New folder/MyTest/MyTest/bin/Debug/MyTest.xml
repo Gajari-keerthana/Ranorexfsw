@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTest</name>
+    </assembly>
+    <members>
+        <member name="T:MyTest.MyTestRepository">
+            <summary>
+            The class representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.WindowAutomationIdsStandAloneShell">
+            <summary>
+            The WindowAutomationIdsStandAloneShell folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.WindowAutomationIdsShell">
+            <summary>
+            The WindowAutomationIdsShell folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder">
+            <summary>
+            The WindowAutomationIdsStandAloneShellAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WindowAutomationIdsStandAloneShell  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsAdd2Action">
+            <summary>
+            The StandAloneAutomationIdsAdd2Action item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsAdd2ActionInfo">
+            <summary>
+            The StandAloneAutomationIdsAdd2Action item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsProfileAutomatio">
+            <summary>
+            The StandAloneAutomationIdsProfileAutomatio item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsProfileAutomatioInfo">
+            <summary>
+            The StandAloneAutomationIdsProfileAutomatio item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsProfileAutomatio1">
+            <summary>
+            The StandAloneAutomationIdsProfileAutomatio1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsProfileAutomatio1Info">
+            <summary>
+            The StandAloneAutomationIdsProfileAutomatio1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsDetailsAutomatio">
+            <summary>
+            The StandAloneAutomationIdsDetailsAutomatio item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsDetailsAutomatioInfo">
+            <summary>
+            The StandAloneAutomationIdsDetailsAutomatio item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.ContentTextBlock">
+            <summary>
+            The ContentTextBlock item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.ContentTextBlockInfo">
+            <summary>
+            The ContentTextBlock item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsAudiogramAutomat">
+            <summary>
+            The StandAloneAutomationIdsAudiogramAutomat item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsAudiogramAutomatInfo">
+            <summary>
+            The StandAloneAutomationIdsAudiogramAutomat item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsAudiogramAutomat1">
+            <summary>
+            The StandAloneAutomationIdsAudiogramAutomat1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsAudiogramAutomat1Info">
+            <summary>
+            The StandAloneAutomationIdsAudiogramAutomat1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsDetailsAutomatio1">
+            <summary>
+            The StandAloneAutomationIdsDetailsAutomatio1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsDetailsAutomatio1Info">
+            <summary>
+            The StandAloneAutomationIdsDetailsAutomatio1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsDetailsAutomatio2">
+            <summary>
+            The StandAloneAutomationIdsDetailsAutomatio2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.StandAloneAutomationIdsDetailsAutomatio2Info">
+            <summary>
+            The StandAloneAutomationIdsDetailsAutomatio2 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.WindowAutomationIdsShellAppFolder">
+            <summary>
+            The WindowAutomationIdsShellAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.WindowAutomationIdsShellAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WindowAutomationIdsShell  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsShellAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsShellAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsShellAppFolder.PARTEditor">
+            <summary>
+            The PARTEditor item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsShellAppFolder.PARTEditorInfo">
+            <summary>
+            The PARTEditor item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsShellAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.WindowAutomationIdsShellAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Recording1.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording1.First_Name">
+            <summary>
+            Gets or sets the value of variable First_Name.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording1.Last_Name">
+            <summary>
+            Gets or sets the value of variable Last_Name.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTest.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Recording2.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording2.Device_Name">
+            <summary>
+            Gets or sets the value of variable Device_Name.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

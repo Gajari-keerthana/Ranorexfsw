@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.7m"
+		durationms="223260"
+		type="root"
+		rid="29adca13ca98d5de"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/17/2023 3:31:28 PM"
+		timestampiso="2023-10-17T10:01:28"
+		endtime="10/17/2023 3:35:11 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="03:16.006"
+			timeRelativeToTestModuleStartTime="03:16.006"
+			timeWallClock="15:34:44"
+			time="03:16.006"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\ReSound\SmartFit\SmartFitSA.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:16.043"
+			timeRelativeToTestModuleStartTime="03:16.043"
+			timeWallClock="15:34:44"
+			time="03:16.043"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.Text' at 42;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/text[@automationid='Text']"
+				itempath="?/?/text[@automationid='Text']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.Text"
+				id="4703977127ce419a9de518bf4a192612"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:24.654"
+			timeRelativeToTestModuleStartTime="03:24.654"
+			timeWallClock="15:34:53"
+			time="03:24.654"
+			level="Warn"
+			category="WPF.Core">
+			<message>
+				UI elements in your 'WPF.Core' AUT can’t be identified because it couldn’t be instrumented automatically. Restart all Ranorex tools and the AUT with the same privileges, preferably as an administrator.
+
+Could not set-up managed injection endpoint: Failed to retrieve PID.<br/>Process: 'SmartFitSA' (pid 3004)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Core Instrumentation"
+				showInProgressDialog="False"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:43.256"
+			timeRelativeToTestModuleStartTime="03:43.256"
+			timeWallClock="15:35:11"
+			time="03:43.256"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

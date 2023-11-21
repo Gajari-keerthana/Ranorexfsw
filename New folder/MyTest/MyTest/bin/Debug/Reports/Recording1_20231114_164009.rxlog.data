@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.29s"
+		durationms="10287"
+		type="root"
+		rid="109cd1b22b363b84"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/14/2023 4:40:11 PM"
+		timestampiso="2023-11-14T11:10:11"
+		endtime="11/14/2023 4:40:22 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.637"
+			timeRelativeToTestModuleStartTime="00:03.637"
+			timeWallClock="16:40:15"
+			time="00:03.637"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsShell.NavigationAutomationIdsMainAutomationId' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='WindowAutomationIds.Shell']/form//list[@automationid='PART_Items']/?/?/radiobutton[@automationid='NavigationAutomationIds.MainAutomationIds.AdvancedFeatures']"
+				itempath="form//list[@automationid='PART_Items']/?/?/radiobutton[@automationid='NavigationAutomationIds.MainAutomationIds.AdvancedFeatures']"
+				fullname="MyTestRepository.WindowAutomationIdsShell.NavigationAutomationIdsMainAutomationId"
+				id="ea77973ac5ee490ba8965f3c8365a4fc"
+				timeout="60000"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.198"
+			timeRelativeToTestModuleStartTime="00:06.198"
+			timeWallClock="16:40:17"
+			time="00:06.198"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+Alt+Shift+D' Press.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.234"
+			timeRelativeToTestModuleStartTime="00:06.234"
+			timeWallClock="16:40:18"
+			time="00:06.234"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmartFit.Maximize' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='']/?/?/button[@accessiblename='Maximize']"
+				itempath="?/?/button[@accessiblename='Maximize']"
+				fullname="MyTestRepository.SmartFit.Maximize"
+				id="683583888e4b4359a7561a7e0a398f5c"
+				timeout="60000"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.248"
+			timeRelativeToTestModuleStartTime="00:07.248"
+			timeWallClock="16:40:19"
+			time="00:07.248"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'SmartFit.DomainTreeView.Expander3' at 5;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='']//tree[@automationid='DomainTreeView']/treeitem[@text='Active Product Left']/button[@automationid='Expander']"
+				itempath="treeitem[@text='Active Product Left']/button[@automationid='Expander']"
+				fullname="MyTestRepository.SmartFit.DomainTreeView.Expander3"
+				id="2df7519acde847b78f9b6509fabd9719"
+				timeout="90000"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.316"
+			timeRelativeToTestModuleStartTime="00:08.316"
+			timeWallClock="16:40:20"
+			time="00:08.316"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'SmartFit.DomainTreeView.Expander' at 6;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='']//tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AvailablePrograms']/button[@automationid='Expander']"
+				itempath="?/?/treeitem[@automationid='AvailablePrograms']/button[@automationid='Expander']"
+				fullname="MyTestRepository.SmartFit.DomainTreeView.Expander"
+				id="efc020a1e899422aa0c58155d854a910"
+				timeout="90000"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

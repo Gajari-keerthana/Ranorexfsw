@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.71s"
+		durationms="3710"
+		type="root"
+		rid="2bd8f0497529264"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/16/2023 2:07:59 PM"
+		timestampiso="2023-11-16T08:37:59"
+		endtime="11/16/2023 2:08:03 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Couplergains">
+		<detail>
+			Couplergains
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.692"
+			timeRelativeToTestModuleStartTime="00:03.692"
+			timeWallClock="14:08:03"
+			time="00:03.692"
+			level="Info"
+			category="User">
+			<message>
+				Files are different at line 26
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\UserCodeCollection1.cs"
+				codeline="57"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

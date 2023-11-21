@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="46.51s"
+		durationms="46510"
+		type="root"
+		rid="148f0c95c69b8960"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/8/2023 11:27:57 AM"
+		timestampiso="2023-11-08T05:57:57"
+		endtime="11/8/2023 11:28:43 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AudiogramGains">
+		<detail>
+			AudiogramGains
+		</detail>
+		<errormessage>
+			Failed to find item 'LaunchFSWRepository.WindowAutomationIdsStandAloneShell.ContentTextBlock'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.000"
+			timeRelativeToTestModuleStartTime="00:46.000"
+			timeWallClock="11:28:43"
+			time="00:46.000"
+			level="Info"
+			category="User"
+			errimg="images_Audiogra_922049f0\Audiogra_922049f0_71ffa76c_trace.jpg"
+			errthumb="images_Audiogra_922049f0\Audiogra_922049f0_71ffa76c_trace_thumb.jpg">
+			<message>
+				Item 'ContentTextBlock' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\UserCodeCollection1.cs"
+				codeline="115"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.457"
+			timeRelativeToTestModuleStartTime="00:46.457"
+			timeWallClock="11:28:43"
+			time="00:46.457"
+			level="Error"
+			category="Module"
+			errimg="images_Audiogra_922049f0\Audiogra_922049f0_4c411d33_trace.jpg"
+			errthumb="images_Audiogra_922049f0\Audiogra_922049f0_4c411d33_trace_thumb.jpg">
+			<message>
+				Failed to find item 'LaunchFSWRepository.WindowAutomationIdsStandAloneShell.ContentTextBlock'.<br/>No element found for path 'container[1]/text[27]' at step 'text[27]' after 119 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at LaunchFSW.LaunchFSWRepositoryFolders.WindowAutomationIdsStandAloneShellAppFolder.get_ContentTextBlock() in D:\Ranorex\LaunchFSW\LaunchFSW\LaunchFSWRepository.cs:line 358&#13;&#10;   at LaunchFSW.audiogramgains.gains() in D:\Ranorex\LaunchFSW\LaunchFSW\UserCodeCollection1.cs:line 115&#13;&#10;   at LaunchFSW.AudiogramGains.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs:line 82&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\UserCodeCollection1.cs"
+				codeline="115"
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/container[1]/text[27]"
+				itempath="container[1]/text[27]"
+				fullname="LaunchFSWRepository.WindowAutomationIdsStandAloneShell.ContentTextBlock"
+				id="9007027886eb4ad8abf6e31d5669d47b"
+				timeout="60000"
+				failedStep="text[27]"
+				bestPathPrefix="container[1]"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

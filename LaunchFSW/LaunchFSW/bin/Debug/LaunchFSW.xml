@@ -1,0 +1,1402 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LaunchFSW</name>
+    </assembly>
+    <members>
+        <member name="T:LaunchFSW.AudiogramGains">
+             <summary>
+            The AudiogramGains recording.
+             </summary>
+        </member>
+        <member name="F:LaunchFSW.AudiogramGains.repo">
+            <summary>
+            Holds an instance of the LaunchFSWRepository repository.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.AudiogramGains.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.AudiogramGains.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.AudiogramGains.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LaunchFSW.AudiogramGains.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.AudiogramGains.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LaunchFSW.AudiogramGains.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.C2cgains">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.C2cgains.N2ccoupler">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.C2cgains.N2ccoupler2">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.Couplergains">
+             <summary>
+            The Couplergains recording.
+             </summary>
+        </member>
+        <member name="F:LaunchFSW.Couplergains.repo">
+            <summary>
+            Holds an instance of the LaunchFSWRepository repository.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Couplergains.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.Couplergains.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Couplergains.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LaunchFSW.Couplergains.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Couplergains.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LaunchFSW.Couplergains.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.Datagains">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Datagains.targetrules">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.DomainViewer">
+             <summary>
+            The DomainViewer recording.
+             </summary>
+        </member>
+        <member name="F:LaunchFSW.DomainViewer.repo">
+            <summary>
+            Holds an instance of the LaunchFSWRepository repository.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.DomainViewer.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.DomainViewer.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.DomainViewer.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LaunchFSW.DomainViewer.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.DomainViewer.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LaunchFSW.DomainViewer.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.GainsCoupler">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.GainsCoupler.Viewgains">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.KillOpenApplication">
+             <summary>
+            The KillOpenApplication recording.
+             </summary>
+        </member>
+        <member name="F:LaunchFSW.KillOpenApplication.repo">
+            <summary>
+            Holds an instance of the LaunchFSWRepository repository.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.KillOpenApplication.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.KillOpenApplication.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.KillOpenApplication.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LaunchFSW.KillOpenApplication.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.KillOpenApplication.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LaunchFSW.KillOpenApplication.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSWRepository">
+            <summary>
+            The class representing the LaunchFSWRepository element repository.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the LaunchFSWRepository element repository.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSWRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.MenuAutomationIdsViewAutomationIdsCoup">
+            <summary>
+            The MenuAutomationIdsViewAutomationIdsCoup item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.MenuAutomationIdsViewAutomationIdsCoupInfo">
+            <summary>
+            The MenuAutomationIdsViewAutomationIdsCoup item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.StandAloneAutomationIdsListAutomationId">
+            <summary>
+            The StandAloneAutomationIdsListAutomationId item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.StandAloneAutomationIdsListAutomationIdInfo">
+            <summary>
+            The StandAloneAutomationIdsListAutomationId item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.SaveAutomationIdsPerformSaveAutomationI">
+            <summary>
+            The SaveAutomationIdsPerformSaveAutomationI item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.SaveAutomationIdsPerformSaveAutomationIInfo">
+            <summary>
+            The SaveAutomationIdsPerformSaveAutomationI item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.StandAloneAutomationIdsDetailsAutomatio">
+            <summary>
+            The StandAloneAutomationIdsDetailsAutomatio item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.StandAloneAutomationIdsDetailsAutomatioInfo">
+            <summary>
+            The StandAloneAutomationIdsDetailsAutomatio item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.WindowAutomationIdsCloseAction">
+            <summary>
+            The WindowAutomationIdsCloseAction item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.WindowAutomationIdsCloseActionInfo">
+            <summary>
+            The WindowAutomationIdsCloseAction item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.ContentTextBlock8">
+            <summary>
+            The ContentTextBlock8 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.ContentTextBlock8Info">
+            <summary>
+            The ContentTextBlock8 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.Directionality">
+            <summary>
+            The Directionality folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.SmartLauncher">
+            <summary>
+            The SmartLauncher folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.SmartFit">
+            <summary>
+            The SmartFit folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.Explorer1">
+            <summary>
+            The Explorer1 folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.TargetViewer">
+            <summary>
+            The TargetViewer folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.Window">
+            <summary>
+            The Window folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.SomeForm">
+            <summary>
+            The SomeForm folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSWRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder">
+            <summary>
+            The DirectionalityAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Directionality  folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StandAloneAutomationIdsProfileAutomatio">
+            <summary>
+            The StandAloneAutomationIdsProfileAutomatio item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StandAloneAutomationIdsProfileAutomatioInfo">
+            <summary>
+            The StandAloneAutomationIdsProfileAutomatio item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StandAloneAutomationIdsProfileAutomatio1">
+            <summary>
+            The StandAloneAutomationIdsProfileAutomatio1 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StandAloneAutomationIdsProfileAutomatio1Info">
+            <summary>
+            The StandAloneAutomationIdsProfileAutomatio1 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StandAloneAutomationIdsAdd2Action">
+            <summary>
+            The StandAloneAutomationIdsAdd2Action item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StandAloneAutomationIdsAdd2ActionInfo">
+            <summary>
+            The StandAloneAutomationIdsAdd2Action item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock">
+            <summary>
+            The ContentTextBlock item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlockInfo">
+            <summary>
+            The ContentTextBlock item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StandAloneAutomationIdsAudiogramAutomat">
+            <summary>
+            The StandAloneAutomationIdsAudiogramAutomat item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StandAloneAutomationIdsAudiogramAutomatInfo">
+            <summary>
+            The StandAloneAutomationIdsAudiogramAutomat item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock1">
+            <summary>
+            The ContentTextBlock1 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock1Info">
+            <summary>
+            The ContentTextBlock1 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.MenuAutomationIdsViewAction">
+            <summary>
+            The MenuAutomationIdsViewAction item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.MenuAutomationIdsViewActionInfo">
+            <summary>
+            The MenuAutomationIdsViewAction item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StandAloneAutomationIdsDetailsAutomatio1">
+            <summary>
+            The StandAloneAutomationIdsDetailsAutomatio1 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StandAloneAutomationIdsDetailsAutomatio1Info">
+            <summary>
+            The StandAloneAutomationIdsDetailsAutomatio1 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.Text2">
+            <summary>
+            The Text2 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.Text2Info">
+            <summary>
+            The Text2 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StateMachineAutomationIdsContinueAction">
+            <summary>
+            The StateMachineAutomationIdsContinueAction item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.StateMachineAutomationIdsContinueActionInfo">
+            <summary>
+            The StateMachineAutomationIdsContinueAction item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock2">
+            <summary>
+            The ContentTextBlock2 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock2Info">
+            <summary>
+            The ContentTextBlock2 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock3">
+            <summary>
+            The ContentTextBlock3 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock3Info">
+            <summary>
+            The ContentTextBlock3 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock4">
+            <summary>
+            The ContentTextBlock4 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock4Info">
+            <summary>
+            The ContentTextBlock4 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock5">
+            <summary>
+            The ContentTextBlock5 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock5Info">
+            <summary>
+            The ContentTextBlock5 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock6">
+            <summary>
+            The ContentTextBlock6 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock6Info">
+            <summary>
+            The ContentTextBlock6 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock7">
+            <summary>
+            The ContentTextBlock7 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock7Info">
+            <summary>
+            The ContentTextBlock7 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.NavigationAutomationIdsMainAutomationId">
+            <summary>
+            The NavigationAutomationIdsMainAutomationId item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.NavigationAutomationIdsMainAutomationIdInfo">
+            <summary>
+            The NavigationAutomationIdsMainAutomationId item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock9">
+            <summary>
+            The ContentTextBlock9 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock9Info">
+            <summary>
+            The ContentTextBlock9 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock10">
+            <summary>
+            The ContentTextBlock10 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock10Info">
+            <summary>
+            The ContentTextBlock10 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock11">
+            <summary>
+            The ContentTextBlock11 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock11Info">
+            <summary>
+            The ContentTextBlock11 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock12">
+            <summary>
+            The ContentTextBlock12 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.ContentTextBlock12Info">
+            <summary>
+            The ContentTextBlock12 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.FittingAutomationIdsAdvancedFeaturesAut">
+            <summary>
+            The FittingAutomationIdsAdvancedFeaturesAut item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.FittingAutomationIdsAdvancedFeaturesAutInfo">
+            <summary>
+            The FittingAutomationIdsAdvancedFeaturesAut item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.FittingAutomationIdsSaveAction">
+            <summary>
+            The FittingAutomationIdsSaveAction item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.FittingAutomationIdsSaveActionInfo">
+            <summary>
+            The FittingAutomationIdsSaveAction item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.PARTScrollViewer">
+            <summary>
+            The PARTScrollViewer item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.PARTScrollViewerInfo">
+            <summary>
+            The PARTScrollViewer item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.MenuAutomationIdsFittingAction">
+            <summary>
+            The MenuAutomationIdsFittingAction item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.MenuAutomationIdsFittingActionInfo">
+            <summary>
+            The MenuAutomationIdsFittingAction item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.SavedToDatabase">
+            <summary>
+            The SavedToDatabase item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.SavedToDatabaseInfo">
+            <summary>
+            The SavedToDatabase item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.SaveAutomationIdsPerformSaveAutomationI1">
+            <summary>
+            The SaveAutomationIdsPerformSaveAutomationI1 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.SaveAutomationIdsPerformSaveAutomationI1Info">
+            <summary>
+            The SaveAutomationIdsPerformSaveAutomationI1 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.Test">
+            <summary>
+            The Test item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.TestInfo">
+            <summary>
+            The Test item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.Patient">
+            <summary>
+            The Patient item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.PatientInfo">
+            <summary>
+            The Patient item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.FitPatient">
+            <summary>
+            The FitPatient item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.DirectionalityAppFolder.FitPatientInfo">
+            <summary>
+            The FitPatient item info.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder">
+            <summary>
+            The SmartLauncherAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SmartLauncher  folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.SmartLauncherAutomationIdsSimulateActio">
+            <summary>
+            The SmartLauncherAutomationIdsSimulateActio item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.SmartLauncherAutomationIdsSimulateActioInfo">
+            <summary>
+            The SmartLauncherAutomationIdsSimulateActio item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.WindowAutomationIdsCloseAction">
+            <summary>
+            The WindowAutomationIdsCloseAction item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.WindowAutomationIdsCloseActionInfo">
+            <summary>
+            The WindowAutomationIdsCloseAction item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.InstrumentModel">
+            <summary>
+            The InstrumentModel item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.InstrumentModelInfo">
+            <summary>
+            The InstrumentModel item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.ReSoundLiNX3D9">
+            <summary>
+            The ReSoundLiNX3D9 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.ReSoundLiNX3D9Info">
+            <summary>
+            The ReSoundLiNX3D9 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.PARTFamilyGroupsScrollViewer">
+            <summary>
+            The PARTFamilyGroupsScrollViewer item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.PARTFamilyGroupsScrollViewerInfo">
+            <summary>
+            The PARTFamilyGroupsScrollViewer item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.ReSoundLiNX3D">
+            <summary>
+            The ReSoundLiNX3D item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.ReSoundLiNX3DInfo">
+            <summary>
+            The ReSoundLiNX3D item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.PARTEditor">
+            <summary>
+            The PARTEditor item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartLauncherAppFolder.PARTEditorInfo">
+            <summary>
+            The PARTEditor item info.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder">
+            <summary>
+            The SmartFitAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SmartFit  folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.MenuAutomationIdsViewAutomationIdsCoup1">
+            <summary>
+            The MenuAutomationIdsViewAutomationIdsCoup1 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.MenuAutomationIdsViewAutomationIdsCoup1Info">
+            <summary>
+            The MenuAutomationIdsViewAutomationIdsCoup1 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SomeElement">
+            <summary>
+            The SomeElement item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SomeElementInfo">
+            <summary>
+            The SomeElement item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.MenuAutomationIdsViewAutomationIdsCoup2">
+            <summary>
+            The MenuAutomationIdsViewAutomationIdsCoup2 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.MenuAutomationIdsViewAutomationIdsCoup2Info">
+            <summary>
+            The MenuAutomationIdsViewAutomationIdsCoup2 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SomeListItem">
+            <summary>
+            The SomeListItem item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SomeListItemInfo">
+            <summary>
+            The SomeListItem item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SideRadioButton">
+            <summary>
+            The SideRadioButton item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SideRadioButtonInfo">
+            <summary>
+            The SideRadioButton item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SomeContainer1">
+            <summary>
+            The SomeContainer1 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SomeContainer1Info">
+            <summary>
+            The SomeContainer1 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SomeElement1">
+            <summary>
+            The SomeElement1 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.SomeElement1Info">
+            <summary>
+            The SomeElement1 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.FittingAutomationIdsAdvancedFeaturesAut">
+            <summary>
+            The FittingAutomationIdsAdvancedFeaturesAut item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.FittingAutomationIdsAdvancedFeaturesAutInfo">
+            <summary>
+            The FittingAutomationIdsAdvancedFeaturesAut item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.MenuAutomationIdsFittingAutomationIdsR">
+            <summary>
+            The MenuAutomationIdsFittingAutomationIdsR item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.MenuAutomationIdsFittingAutomationIdsRInfo">
+            <summary>
+            The MenuAutomationIdsFittingAutomationIdsR item info.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSWRepositoryFolders.Explorer1AppFolder">
+            <summary>
+            The Explorer1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSWRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer1  folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.Explorer1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.Explorer1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.Explorer1AppFolder.LaunchFSWRanorexStudio32bit">
+            <summary>
+            The LaunchFSWRanorexStudio32bit item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.Explorer1AppFolder.LaunchFSWRanorexStudio32bitInfo">
+            <summary>
+            The LaunchFSWRanorexStudio32bit item info.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSWRepositoryFolders.TargetViewerAppFolder">
+            <summary>
+            The TargetViewerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSWRepositoryFolders.TargetViewerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TargetViewer  folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.TargetViewerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.TargetViewerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.TargetViewerAppFolder.DataGrid">
+            <summary>
+            The DataGrid item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.TargetViewerAppFolder.DataGridInfo">
+            <summary>
+            The DataGrid item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.TargetViewerAppFolder.PATHCloseButton">
+            <summary>
+            The PATHCloseButton item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.TargetViewerAppFolder.PATHCloseButtonInfo">
+            <summary>
+            The PATHCloseButton item info.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder">
+            <summary>
+            The WindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Window  folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander">
+            <summary>
+            The Expander item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.ExpanderInfo">
+            <summary>
+            The Expander item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Maximize">
+            <summary>
+            The Maximize item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.MaximizeInfo">
+            <summary>
+            The Maximize item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander1">
+            <summary>
+            The Expander1 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander1Info">
+            <summary>
+            The Expander1 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander2">
+            <summary>
+            The Expander2 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander2Info">
+            <summary>
+            The Expander2 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander3">
+            <summary>
+            The Expander3 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander3Info">
+            <summary>
+            The Expander3 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Directionality">
+            <summary>
+            The Directionality item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.DirectionalityInfo">
+            <summary>
+            The Directionality item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander4">
+            <summary>
+            The Expander4 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander4Info">
+            <summary>
+            The Expander4 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander5">
+            <summary>
+            The Expander5 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander5Info">
+            <summary>
+            The Expander5 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander6">
+            <summary>
+            The Expander6 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander6Info">
+            <summary>
+            The Expander6 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander7">
+            <summary>
+            The Expander7 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander7Info">
+            <summary>
+            The Expander7 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander8">
+            <summary>
+            The Expander8 item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.Expander8Info">
+            <summary>
+            The Expander8 item info.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.DialogAutomationIdsPositiveAction">
+            <summary>
+            The DialogAutomationIdsPositiveAction item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.WindowAppFolder.DialogAutomationIdsPositiveActionInfo">
+            <summary>
+            The DialogAutomationIdsPositiveAction item info.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSWRepositoryFolders.SomeFormAppFolder">
+            <summary>
+            The SomeFormAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSWRepositoryFolders.SomeFormAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SomeForm  folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SomeFormAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.SomeFormAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSWRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSWRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSWRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.PatientCheck">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.PatientCheck.ValidatePatient">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.LaunchFSW">
+             <summary>
+            The LaunchFSW recording.
+             </summary>
+        </member>
+        <member name="F:LaunchFSW.LaunchFSW.repo">
+            <summary>
+            Holds an instance of the LaunchFSWRepository repository.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSW.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSW.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSW.First_Name">
+            <summary>
+            Gets or sets the value of variable First_Name.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.LaunchFSW.Last_Name">
+            <summary>
+            Gets or sets the value of variable Last_Name.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSW.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LaunchFSW.LaunchFSW.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSW.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LaunchFSW.LaunchFSW.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.Audiogram">
+             <summary>
+            The Audiogram recording.
+             </summary>
+        </member>
+        <member name="F:LaunchFSW.Audiogram.repo">
+            <summary>
+            Holds an instance of the LaunchFSWRepository repository.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Audiogram.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.Audiogram.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Audiogram.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LaunchFSW.Audiogram.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Audiogram.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LaunchFSW.Audiogram.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.Simulate">
+             <summary>
+            The Simulate recording.
+             </summary>
+        </member>
+        <member name="F:LaunchFSW.Simulate.repo">
+            <summary>
+            Holds an instance of the LaunchFSWRepository repository.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Simulate.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.Simulate.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.Simulate.Device_Name">
+            <summary>
+            Gets or sets the value of variable Device_Name.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Simulate.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LaunchFSW.Simulate.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Simulate.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LaunchFSW.Simulate.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.CloseApp">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.CloseApp.killFSW">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.Validation">
+             <summary>
+            The Validation recording.
+             </summary>
+        </member>
+        <member name="F:LaunchFSW.Validation.repo">
+            <summary>
+            Holds an instance of the LaunchFSWRepository repository.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Validation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.Validation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Validation.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LaunchFSW.Validation.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Validation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LaunchFSW.Validation.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.Viewfitting">
+             <summary>
+            The Viewfitting recording.
+             </summary>
+        </member>
+        <member name="F:LaunchFSW.Viewfitting.repo">
+            <summary>
+            Holds an instance of the LaunchFSWRepository repository.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Viewfitting.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:LaunchFSW.Viewfitting.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Viewfitting.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:LaunchFSW.Viewfitting.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.Viewfitting.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:LaunchFSW.Viewfitting.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:LaunchFSW.viewlist">
+            <summary>
+            Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
+            </summary>
+        </member>
+        <member name="M:LaunchFSW.viewlist.setcouplers_randomly">
+            <summary>
+            This is a placeholder text. Please describe the purpose of the
+            user code method here. The method is published to the user code library
+            within a user code collection.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="6.1s"
+		durationms="6103"
+		type="root"
+		rid="966413b09057a5c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/14/2023 3:39:05 PM"
+		timestampiso="2023-11-14T10:09:05"
+		endtime="11/14/2023 3:39:12 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Directionalitycheck">
+		<detail>
+			Directionalitycheck
+		</detail>
+		<errormessage>
+			Failed to move to location 'Center' within element '{Button:Expander}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.630"
+			timeRelativeToTestModuleStartTime="00:03.630"
+			timeWallClock="15:39:09"
+			time="00:03.630"
+			level="Info"
+			category="Mouse"
+			errimg="images_Directio_73b5e0c0\Directio_73b5e0c0_71e71f2b_trace.jpg"
+			errthumb="images_Directio_73b5e0c0\Directio_73b5e0c0_71e71f2b_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Window.Expander' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+				itempath="tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander"
+				id="ec9fa989101f4b48854143417c6dc3e1"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.036"
+			timeRelativeToTestModuleStartTime="00:06.036"
+			timeWallClock="15:39:12"
+			time="00:06.036"
+			level="Error"
+			category="Module"
+			errimg="images_Directio_73b5e0c0\Directio_73b5e0c0_023d48bb_trace.jpg"
+			errthumb="images_Directio_73b5e0c0\Directio_73b5e0c0_023d48bb_trace_thumb.jpg">
+			<message>
+				Failed to move to location 'Center' within element '{Button:Expander}'.<br/>The pointer cannot be moved to point '{X=-8,Y=48}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click()
+   at LaunchFSW.Directionalitycheck.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs:line 92
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="92"
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+				itempath="tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander"
+				id="ec9fa989101f4b48854143417c6dc3e1"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

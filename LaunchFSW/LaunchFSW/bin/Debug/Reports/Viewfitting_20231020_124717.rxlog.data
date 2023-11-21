@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="72927"
+		type="root"
+		rid="ca5ff0b9fd0305"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/20/2023 12:47:20 PM"
+		timestampiso="2023-10-20T07:17:20"
+		endtime="10/20/2023 12:48:33 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Viewfitting">
+		<detail>
+			Viewfitting
+		</detail>
+		<errormessage>
+			Failed to find item 'LaunchFSWRepository.SmartFit.MenuAutomationIdsViewAutomationIdsCoup2'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="01:12.727"
+			timeRelativeToTestModuleStartTime="01:12.727"
+			timeWallClock="12:48:32"
+			time="01:12.727"
+			level="Info"
+			category="User"
+			errimg="images_Viewfitt_19f353bd\Viewfitt_19f353bd_25bbd673_trace.jpg"
+			errthumb="images_Viewfitt_19f353bd\Viewfitt_19f353bd_25bbd673_trace_thumb.jpg">
+			<message>
+				Item 'MenuAutomationIdsViewAutomationIdsCoup2' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\viewlist.cs"
+				codeline="44"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:12.857"
+			timeRelativeToTestModuleStartTime="01:12.857"
+			timeWallClock="12:48:33"
+			time="01:12.857"
+			level="Error"
+			category="Module"
+			errimg="images_Viewfitt_19f353bd\Viewfitt_19f353bd_d8c0a5de_trace.jpg"
+			errthumb="images_Viewfitt_19f353bd\Viewfitt_19f353bd_d8c0a5de_trace_thumb.jpg">
+			<message>
+				Failed to find item 'LaunchFSWRepository.SmartFit.MenuAutomationIdsViewAutomationIdsCoup2'.<br/>No element found for path '/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.TwoCCGain']' at step 'menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.TwoCCGain']' after 399 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.get_MenuAutomationIdsViewAutomationIdsCoup2() in D:\Ranorex\LaunchFSW\LaunchFSW\LaunchFSWRepository.cs:line 1107&#13;&#10;   at LaunchFSW.viewlist.setcouplers_randomly() in D:\Ranorex\LaunchFSW\LaunchFSW\viewlist.cs:line 44&#13;&#10;   at LaunchFSW.Viewfitting.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\Viewfitting.cs:line 82&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\viewlist.cs"
+				codeline="44"
+				type="repoitem"
+				path="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.TwoCCGain']"
+				itempath="menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.TwoCCGain']"
+				fullname="LaunchFSWRepository.SmartFit.MenuAutomationIdsViewAutomationIdsCoup2"
+				id="738dd655994243fc8b5f811815731f97"
+				timeout="60000"
+				failedStep="menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.TwoCCGain']"
+				bestPathPrefix=""
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

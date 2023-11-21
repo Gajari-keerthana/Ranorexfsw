@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.8m"
+		durationms="110591"
+		type="root"
+		rid="176f8841d22dc1a7"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/19/2023 12:29:40 PM"
+		timestampiso="2023-10-19T06:59:40"
+		endtime="10/19/2023 12:31:30 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Fittingvalues">
+		<detail>
+			Fittingvalues
+		</detail>
+		<errormessage>
+			Failed to find item 'LaunchFSWRepository.SmartFit.Text2'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.320"
+			timeRelativeToTestModuleStartTime="00:50.320"
+			timeWallClock="12:30:30"
+			time="00:50.320"
+			level="Info"
+			category="User"
+			errimg="images_Fittingv_dbb4c7ea\Fittingv_dbb4c7ea_89cf3528_trace.jpg"
+			errthumb="images_Fittingv_dbb4c7ea\Fittingv_dbb4c7ea_89cf3528_trace_thumb.jpg">
+			<message>
+				Item 'Text' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Fittingvalues.cs"
+				codeline="55"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:50.394"
+			timeRelativeToTestModuleStartTime="01:50.394"
+			timeWallClock="12:31:30"
+			time="01:50.394"
+			level="Info"
+			category="User"
+			errimg="images_Fittingv_dbb4c7ea\Fittingv_dbb4c7ea_b3b9f547_trace.jpg"
+			errthumb="images_Fittingv_dbb4c7ea\Fittingv_dbb4c7ea_b3b9f547_trace_thumb.jpg">
+			<message>
+				Item 'Text2' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Fittingvalues.cs"
+				codeline="56"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:50.516"
+			timeRelativeToTestModuleStartTime="01:50.516"
+			timeWallClock="12:31:30"
+			time="01:50.516"
+			level="Error"
+			category="Module"
+			errimg="images_Fittingv_dbb4c7ea\Fittingv_dbb4c7ea_6af1c8d4_trace.jpg"
+			errthumb="images_Fittingv_dbb4c7ea\Fittingv_dbb4c7ea_6af1c8d4_trace_thumb.jpg">
+			<message>
+				Failed to find item 'LaunchFSWRepository.SmartFit.Text2'.<br/>No element found for path '/contextmenu[@automationid='' and @wpfnative='True']/?/?/text[@name='Text' and @caption='OES Coupler']' at step 'text[@name='Text' and @caption='OES Coupler']' after 209 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.get_Text2() in D:\Ranorex\LaunchFSW\LaunchFSW\LaunchFSWRepository.cs:line 1176&#13;&#10;   at LaunchFSW.Fittingvalues.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\Fittingvalues.cs:line 56&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Fittingvalues.cs"
+				codeline="56"
+				type="repoitem"
+				path="/contextmenu[@automationid='' and @wpfnative='True']/?/?/text[@name='Text' and @caption='OES Coupler']"
+				itempath="?/?/text[@name='Text' and @caption='OES Coupler']"
+				fullname="LaunchFSWRepository.SmartFit.Text2"
+				id="b3e33783590744a6b83c7bfcf971959b"
+				timeout="60000"
+				failedStep="text[@name='Text' and @caption='OES Coupler']"
+				bestPathPrefix="?/?"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

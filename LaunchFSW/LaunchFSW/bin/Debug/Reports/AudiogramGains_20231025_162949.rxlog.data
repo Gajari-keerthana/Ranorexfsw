@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.73s"
+		durationms="4734"
+		type="root"
+		rid="2f259ac131049d9e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/25/2023 4:29:52 PM"
+		timestampiso="2023-10-25T10:59:52"
+		endtime="10/25/2023 4:29:57 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AudiogramGains">
+		<detail>
+			AudiogramGains
+		</detail>
+		<errormessage>
+			The method or operation is not implemented.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.652"
+			timeRelativeToTestModuleStartTime="00:04.652"
+			timeWallClock="16:29:57"
+			time="00:04.652"
+			level="Error"
+			category="Module"
+			errimg="images_Audiogra_31079cd7\Audiogra_31079cd7_66ef257d_trace.jpg"
+			errthumb="images_Audiogra_31079cd7\Audiogra_31079cd7_66ef257d_trace_thumb.jpg">
+			<message>
+				The method or operation is not implemented.
+			</message>
+			<metainfo
+				stacktrace="   at LaunchFSW.AudiogramGains.gains() in D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.UserCode.cs:line 39
+   at LaunchFSW.AudiogramGains.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\AudiogramGains.UserCode.cs"
+				codeline="39"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

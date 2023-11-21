@@ -1,0 +1,191 @@
+﻿<repository
+id="fefe1d26-72fb-4744-a7b1-580cc2631500"
+name="MyTestRepository">
+	<codegen
+	classname="MyTestRepository"
+	namespace="MyTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="a31ce71c-0670-44af-a588-5876c70397f5"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="15b00a9b-1fe6-4d0d-9814-8a96574035d4"
+		isrooted="True"
+		name="WindowAutomationIdsStandAloneShell"
+		refpath="/form[@automationid='WindowAutomationIds.StandAloneShell']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="609b3f1e-0a8e-4e89-aeb9-d6ae2fa1971a"
+			name="StandAloneAutomationIdsAdd2Action"
+			refimgid="e07b4502-965d-4dd7-bda6-a5b6133aa12d"
+			refpath="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/button[@automationid='StandAloneAutomationIds.Add2Action']"
+			robustPath="/form[@automationid='WindowAutomationIds.StandAloneShell']/?/?/button[@automationid='StandAloneAutomationIds.Add2Action']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.StandAloneShell']/?/?/button[@automationid='StandAloneAutomationIds.Add2Action']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="07820af3-4ea4-4876-9fb8-4bb3313af23c"
+			name="StandAloneAutomationIdsProfileAutomatio"
+			refimgid="f0848889-716b-45da-bd0d-aa18bb716371"
+			refpath="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/container[1]/container[@caption='']/container/container[2]/text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.FirstNameField']"
+			robustPath="/form[@automationid='WindowAutomationIds.StandAloneShell']//text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.FirstNameField']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/container[1]//text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.FirstNameField']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="6d5495ec-f73a-41be-9b19-9fbb20212909"
+			name="StandAloneAutomationIdsProfileAutomatio1"
+			refimgid="da9d315a-7c61-4ac0-bf85-b131bb7ace57"
+			refpath="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/container[1]/container[@caption='']/container/container[2]/text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.LastNameField']"
+			robustPath="/form[@automationid='WindowAutomationIds.StandAloneShell']//text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.LastNameField']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/container[1]//text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.LastNameField']
+			</item>
+			<item
+			addcaps="listitem,wpfelement,wpfgroupelement"
+			capname="listitem"
+			id="0061ccb3-45f4-41d5-9c9b-a912941e65fd"
+			name="StandAloneAutomationIdsDetailsAutomatio"
+			refimgid="3ab36d7f-77cb-4da4-9adf-619110c3d1cd"
+			refpath="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/listitem[@automationid='StandAloneAutomationIds.DetailsAutomationIds.AudiogramAction']"
+			robustPath="/form[@automationid='WindowAutomationIds.StandAloneShell']//listitem[@automationid='StandAloneAutomationIds.DetailsAutomationIds.AudiogramAction']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/listitem[@automationid='StandAloneAutomationIds.DetailsAutomationIds.AudiogramAction']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="41ffa598-7105-4ae2-b4ee-ccda0957f695"
+			name="ContentTextBlock"
+			refimgid="d8fde138-d8f0-41a2-9eb6-128355f742b3"
+			refpath="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/container[1]/table/container[4]/cell[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CellItemsAutomationIds.AirConduction.125.RIGHT_EAR']/text[@automationid='ContentTextBlock']"
+			robustPath="/form[@automationid='WindowAutomationIds.StandAloneShell']//cell[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CellItemsAutomationIds.AirConduction.125.RIGHT_EAR']/text[@automationid='ContentTextBlock']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.StandAloneShell']//table[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CellItemsRight']/container[4]/cell[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CellItemsAutomationIds.AirConduction.125.RIGHT_EAR']/text[@automationid='ContentTextBlock']
+			</item>
+			<item
+			addcaps="cell,wpfelement,wpfgroupelement"
+			capname="cell"
+			id="409fde1e-e695-46ef-a2ac-d795810205ad"
+			name="StandAloneAutomationIdsAudiogramAutomat"
+			refimgid="bbf825d3-9d1d-4fcb-a48e-8ff66f2ce509"
+			refpath="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/container[1]/table/container[4]/cell[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CellItemsAutomationIds.AirConduction.125.RIGHT_EAR']"
+			robustPath="/form[@automationid='WindowAutomationIds.StandAloneShell']//cell[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CellItemsAutomationIds.AirConduction.125.RIGHT_EAR']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.StandAloneShell']//table[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CellItemsRight']/container[4]/cell[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CellItemsAutomationIds.AirConduction.125.RIGHT_EAR']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="7248b958-457a-4e75-a4a2-242087cefeb1"
+			name="StandAloneAutomationIdsAudiogramAutomat1"
+			refimgid="c21fc13d-595c-4883-84ac-3b6e3dfd5959"
+			refpath="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/container[1]/container/container[7]/button[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CopyRightAction']"
+			robustPath="/form[@automationid='WindowAutomationIds.StandAloneShell']//button[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CopyRightAction']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/?/?/container[@automationid='AudiogramRoot']/?/?/button[@automationid='StandAloneAutomationIds.AudiogramAutomationIds.CopyRightAction']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="77142371-c472-417b-aa4b-11e547011ca9"
+			name="StandAloneAutomationIdsDetailsAutomatio1"
+			refimgid="5a8f4db7-c2ab-4b5a-8653-183f014d64ee"
+			refpath="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.SaveAction']"
+			robustPath="/form[@automationid='WindowAutomationIds.StandAloneShell']//button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.SaveAction']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.SaveAction']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="29f26ba1-8d07-40cb-8e7f-83dfeae9201a"
+			name="StandAloneAutomationIdsDetailsAutomatio2"
+			refimgid="4749fb2a-871b-4980-b3d6-c0692a8f67a2"
+			refpath="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.FitAction']"
+			robustPath="/form[@automationid='WindowAutomationIds.StandAloneShell']//button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.FitAction']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/button[@automationid='StandAloneAutomationIds.DetailsAutomationIds.FitAction']
+			</item>
+			<basepath>
+				/form[@automationid='WindowAutomationIds.StandAloneShell']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGrSURBVDhPY1gjqvN2jZj2HyD+RQpeLab9e7WY
+zicGiIDOf3IxyAU/sUmsEdf9v1ZCD4zBfFFtBIaqAbrgH4oBMA1rgZpXCWn8X8mr/H+VoPr/FVxK
+/2/NXPT/x9t3/x+t3QKWA1kA0gM3YLWIFlCDyv9V/Gr/l7HJ/T+dW/3/4/Vb/5/vPgi29fGG7f9B
+4O2Zi2BD4QasFdf7uZJP9f8uG7//r0+c+f/u4tX/Oyx9/l+s6wJr+Pn+w/+1kvpAm7eC+W9OnUcz
+QELv5wpupf/7PKPACkBgv3fM//OVbWD2jzfvIAas3wbmY7oAZoAHwoB9XtH/L1S3g9lwFxA0ANkF
+IAOq6GoAD8gLkWAFIADyAjwMXr+FGLBmC5j/5uQ54gKR6DBYI6b7c5Wgxv8tuo7/Lzf3/b/SMfn/
+Fj2n/3tcwv5f65kOdglI8dGY7P/Xemf8P5VZ8X+1sBZYM8QAUEICKlgtpPl/Gavs/2UsMmD2SmCC
+WsosDU5UIIUgV4L4yzkV4JohBsAyE9CQtVL6YAx2ngQSHyi/VhKYxEF8II1iAChLIguQgleL6vwA
+AMC7ZZhmhaYDAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="e8034797-aefe-4fc0-8156-90f0b92833f9"
+		isrooted="True"
+		name="WindowAutomationIdsShell"
+		refpath="/form[@automationid='WindowAutomationIds.Shell']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="8662a9e7-15e4-492a-9899-22f5c34bf0ed"
+			name="PARTEditor"
+			refimgid="087b2617-9453-44c8-873f-314300d9b95a"
+			refpath="/form[@automationid='WindowAutomationIds.Shell']/form/form/container/form/text[@automationid='PART_Editor']"
+			robustPath="/form[@automationid='WindowAutomationIds.Shell']//text[@automationid='PART_Editor']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.Shell']/?/?/form[@automationid='PART_FamilyGroupsPopup']/?/?/form[@automationid='PART_Popup']/text[@automationid='PART_Editor']
+			</item>
+			<item
+			addcaps="text,wpfelement,wpfgroupelement"
+			capname="text"
+			id="2600b5eb-71f3-4a91-8859-bc6fb81d3816"
+			name="Text"
+			refimgid="6e441d18-4478-4502-957a-06dd68b02c82"
+			refpath="/form[@automationid='WindowAutomationIds.Shell']/container[@automationid='PART_LayoutRoot']/container[@automationid='PART_TitleBar']/container[1]/text[@automationid='Text']"
+			robustPath="/form[@automationid='WindowAutomationIds.Shell']/?/?/container[@automationid='PART_TitleBar']/container[1]/text[@automationid='Text']"
+			searchtimeout="30000ms">
+				/form[@automationid='WindowAutomationIds.Shell']/container[@automationid='PART_LayoutRoot']//text[@automationid='Text']
+			</item>
+			<basepath>
+				/form[@automationid='WindowAutomationIds.Shell']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGrSURBVDhPY1gjqvN2jZj2HyD+RQpeLab9e7WY
+zicGiIDOf3IxyAU/sUmsEdf9v1ZCD4zBfFFtBIaqAbrgH4oBMA1rgZpXCWn8X8mr/H+VoPr/FVxK
+/2/NXPT/x9t3/x+t3QKWA1kA0gM3YLWIFlCDyv9V/Gr/l7HJ/T+dW/3/4/Vb/5/vPgi29fGG7f9B
+4O2Zi2BD4QasFdf7uZJP9f8uG7//r0+c+f/u4tX/Oyx9/l+s6wJr+Pn+w/+1kvpAm7eC+W9OnUcz
+QELv5wpupf/7PKPACkBgv3fM//OVbWD2jzfvIAas3wbmY7oAZoAHwoB9XtH/L1S3g9lwFxA0ANkF
+IAOq6GoAD8gLkWAFIADyAjwMXr+FGLBmC5j/5uQ54gKR6DBYI6b7c5Wgxv8tuo7/Lzf3/b/SMfn/
+Fj2n/3tcwv5f65kOdglI8dGY7P/Xemf8P5VZ8X+1sBZYM8QAUEICKlgtpPl/Gavs/2UsMmD2SmCC
+WsosDU5UIIUgV4L4yzkV4JohBsAyE9CQtVL6YAx2ngQSHyi/VhKYxEF8II1iAChLIguQgleL6vwA
+AMC7ZZhmhaYDAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

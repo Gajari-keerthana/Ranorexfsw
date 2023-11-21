@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="24.74s"
+		durationms="24737"
+		type="root"
+		rid="bc9a1cd72a75daa"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/8/2023 6:10:17 PM"
+		timestampiso="2023-11-08T12:40:17"
+		endtime="11/8/2023 6:10:42 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Viewfitting">
+		<detail>
+			Viewfitting
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.149"
+			timeRelativeToTestModuleStartTime="00:14.149"
+			timeWallClock="18:10:31"
+			time="00:14.149"
+			level="Info"
+			category="User">
+			<message>
+				insertion is selected
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\viewlist.cs"
+				codeline="57"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.772"
+			timeRelativeToTestModuleStartTime="00:16.772"
+			timeWallClock="18:10:34"
+			time="00:16.772"
+			level="Info"
+			category="User">
+			<message>
+				insertion is not selected
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\viewlist.cs"
+				codeline="62"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.729"
+			timeRelativeToTestModuleStartTime="00:19.729"
+			timeWallClock="18:10:37"
+			time="00:19.729"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Viewfitting.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

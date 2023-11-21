@@ -1,0 +1,12 @@
+D:\Ranorex\LaunchFSW\LaunchFSW\bin\Debug\LaunchFSW.rxtmg
+D:\Ranorex\LaunchFSW\LaunchFSW\bin\Debug\LaunchFSW.rxtst
+D:\Ranorex\LaunchFSW\LaunchFSW\bin\Debug\LaunchFSW.exe.config
+D:\Ranorex\LaunchFSW\LaunchFSW\bin\Debug\LaunchFSW.xml
+D:\Ranorex\LaunchFSW\LaunchFSW\bin\Debug\LaunchFSW.exe
+D:\Ranorex\LaunchFSW\LaunchFSW\bin\Debug\LaunchFSW.pdb
+D:\Ranorex\LaunchFSW\LaunchFSW\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Ranorex\LaunchFSW\LaunchFSW\obj\x86\Debug\LaunchFSW.csproj.AssemblyReference.cache
+D:\Ranorex\LaunchFSW\LaunchFSW\obj\x86\Debug\LaunchFSW.csproj.CoreCompileInputs.cache
+D:\Ranorex\LaunchFSW\LaunchFSW\obj\x86\Debug\LaunchFSW.csproj.CopyComplete
+D:\Ranorex\LaunchFSW\LaunchFSW\obj\x86\Debug\LaunchFSW.exe
+D:\Ranorex\LaunchFSW\LaunchFSW\obj\x86\Debug\LaunchFSW.pdb

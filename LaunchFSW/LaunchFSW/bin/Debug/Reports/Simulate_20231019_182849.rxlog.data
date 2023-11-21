@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.82s"
+		durationms="12817"
+		type="root"
+		rid="691bd8b81863128"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/19/2023 6:28:52 PM"
+		timestampiso="2023-10-19T12:58:52"
+		endtime="10/19/2023 6:29:04 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Simulate">
+		<detail>
+			Simulate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.439"
+			timeRelativeToTestModuleStartTime="00:04.439"
+			timeWallClock="18:28:56"
+			time="00:04.439"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Device_Name
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.467"
+			timeRelativeToTestModuleStartTime="00:04.467"
+			timeWallClock="18:28:56"
+			time="00:04.467"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsShell.PARTEditor' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@automationid='PART_Editor']"
+				itempath="text[@automationid='PART_Editor']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsShell.PARTEditor"
+				id="55a83cfbd2e741f4bcfcd739888b5aef"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.974"
+			timeRelativeToTestModuleStartTime="00:06.974"
+			timeWallClock="18:28:59"
+			time="00:06.974"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.983"
+			timeRelativeToTestModuleStartTime="00:11.983"
+			timeWallClock="18:29:04"
+			time="00:11.983"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Device_Name'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.349"
+			timeRelativeToTestModuleStartTime="00:12.349"
+			timeWallClock="18:29:04"
+			time="00:12.349"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}' with focus on 'WindowAutomationIdsShell'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']"
+				itempath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsShell.Self"
+				id="9a7a3d655cbd4e5a954dc974fef3dab7"
+				timeout="30000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="106"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.541"
+			timeRelativeToTestModuleStartTime="00:12.541"
+			timeWallClock="18:29:04"
+			time="00:12.541"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Enter}' with focus on 'WindowAutomationIdsShell'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']"
+				itempath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsShell.Self"
+				id="9a7a3d655cbd4e5a954dc974fef3dab7"
+				timeout="30000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

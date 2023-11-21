@@ -1,0 +1,26 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="LaunchFSW.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="LaunchFSW.rxtst" />
+    <Element value="LaunchFSWRepository.rxrep" />
+    <Element value="Couplergains.rxrec" />
+    <Element value="PatientCheck.cs" />
+    <Element value="LaunchFSW.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="LaunchFSW.PatientCheck.ValidatePatient()" />
+      <Element value="LaunchFSW.PatientCheck.ValidatePatient()" />
+      <Element value="LaunchFSW.UserCodeCollection3.UserCodeMethod()" />
+      <Element value="LaunchFSW.UserCodeCollection1.compare2()" />
+      <Element value="LaunchFSW.UserCodeCollection1.Compare()" />
+      <Element value="LaunchFSW.UserCodeCollection1.Compare(String refFile, String cmpFile)" />
+    </Array>
+  </Properties>
+</Properties>

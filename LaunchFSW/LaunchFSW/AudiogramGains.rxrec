@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fc3797bb-66f2-4713-9925-d862dac8727b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AudiogramGains"
+	namespace="LaunchFSW">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="63d1155b-40c8-4340-aec5-a144dabe821b"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f20ffcb6-95de-4c0b-83eb-266b9e7a134e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='ReSound Smart Fit 1.17']/?/?/text[@name='All']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<keysequenceitem
+		KeySequence="{LControlKey down}{LShiftKey down}{LMenu down}{Tkey}{LMenu up}{LShiftKey up}{LControlKey up}"
+		duration="20ms"
+		enabled="False"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="3463c95b-0dc1-45ac-916d-6ad32dfa5cec">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+		<keyitem
+		action="Press"
+		data="T, Shift, Control, Alt"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		scancode="0"
+		searchpropertyid="58bf3dd6-4dfa-4516-a3bd-23a4c695e20a"
+		setModifiers="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keyitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0554a6c1-0fc8-4271-9fa9-ba622377c0f2"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="30213608-5b5a-467d-90fd-56a7f6a575c1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='Target Viewer' and @classname='Window' and @orientation='None']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<userrecorditem
+		classname="Datagains"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="targetrules"
+		namespace="LaunchFSW"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="484a0886-9d5e-4e39-9dee-59804d67fc05">
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="12bee229-90be-4dd8-9962-678cb2662ef9"
+		sx="1375"
+		sy="10"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d4d2e8a2-a82b-48ac-a2d1-74162471c715"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="5"
+				prefcap="button"
+				rect="1359,-6,27,25"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						PATH_CloseButton
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						9776
+					</attribute>
+				</element>
+				<path>
+					/form[@name='Target Viewer' and @classname='Window' and @orientation='None']/button[@automationid='PATH_CloseButton']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="df0ba139-d270-423f-b27c-2958e0563ed4">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="734ab302-98e2-4bc5-850b-c001f7726161"
+	name="LaunchFSWRepository"
+	relativepath="LaunchFSWRepository.rxrep">
+		<codegen
+		classname="LaunchFSWRepository"
+		namespace="LaunchFSW">
+		</codegen>
+		<rootfolder
+		id="bf05e781-27b0-430f-9b85-cc0db488c5ce"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AudiogramGains.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.84s"
+		durationms="26838"
+		type="root"
+		rid="7a3ab89209e094"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/14/2023 3:34:00 PM"
+		timestampiso="2023-11-14T10:04:00"
+		endtime="11/14/2023 3:34:27 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Directionalitycheck">
+		<detail>
+			Directionalitycheck
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.744"
+			timeRelativeToTestModuleStartTime="00:03.744"
+			timeWallClock="15:34:04"
+			time="00:03.744"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Window.Expander' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+				itempath="tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander"
+				id="ec9fa989101f4b48854143417c6dc3e1"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.886"
+			timeRelativeToTestModuleStartTime="00:05.886"
+			timeWallClock="15:34:06"
+			time="00:05.886"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Window.Expander5' at 6;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']//treeitem[@automationid='AllPrograms']/button[@automationid='Expander']"
+				itempath=".//treeitem[@automationid='AllPrograms']/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander5"
+				id="076905ed4b9d463c87a4dd3695c3052f"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.406"
+			timeRelativeToTestModuleStartTime="00:07.406"
+			timeWallClock="15:34:08"
+			time="00:07.406"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Window.Expander6' at 9;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AllPrograms']/treeitem[1]/button[@automationid='Expander']"
+				itempath="tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AllPrograms']/treeitem[1]/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander6"
+				id="d3fdd7626f674a3a9e163bb19a874906"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="100"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.441"
+			timeRelativeToTestModuleStartTime="00:10.441"
+			timeWallClock="15:34:11"
+			time="00:10.441"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Window.Expander7' at 6;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']//treeitem[@automationid='AllPrograms']/?/?/treeitem[@automationid='Features']/button[@automationid='Expander']"
+				itempath=".//treeitem[@automationid='AllPrograms']/?/?/treeitem[@automationid='Features']/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander7"
+				id="5bc3cf5195ac45bb813e7ec0827e84b2"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="105"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.835"
+			timeRelativeToTestModuleStartTime="00:26.835"
+			timeWallClock="15:34:27"
+			time="00:26.835"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

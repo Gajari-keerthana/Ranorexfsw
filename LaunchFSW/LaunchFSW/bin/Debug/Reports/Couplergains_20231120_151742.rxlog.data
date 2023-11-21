@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="37.36s"
+		durationms="37362"
+		type="root"
+		rid="179456ab6794ac44"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/20/2023 3:17:44 PM"
+		timestampiso="2023-11-20T09:47:44"
+		endtime="11/20/2023 3:18:21 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Couplergains">
+		<detail>
+			Couplergains
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.013"
+			timeRelativeToTestModuleStartTime="00:04.013"
+			timeWallClock="15:17:48"
+			time="00:04.013"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Directionality.MenuAutomationIdsViewAction' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/menuitem[@automationid='MenuAutomationIds.ViewAction']"
+				itempath="?/?/menuitem[@automationid='MenuAutomationIds.ViewAction']"
+				fullname="LaunchFSWRepository.Directionality.MenuAutomationIdsViewAction"
+				id="7a87dcaafa4147a79a6ab9967893f094"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.359"
+			timeRelativeToTestModuleStartTime="00:37.359"
+			timeWallClock="15:18:21"
+			time="00:37.359"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

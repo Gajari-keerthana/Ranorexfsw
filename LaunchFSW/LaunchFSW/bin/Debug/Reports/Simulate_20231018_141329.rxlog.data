@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.89s"
+		durationms="6891"
+		type="root"
+		rid="19ac0f58493199a0"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/18/2023 2:13:32 PM"
+		timestampiso="2023-10-18T08:43:32"
+		endtime="10/18/2023 2:13:38 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Simulate">
+		<detail>
+			Simulate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.704"
+			timeRelativeToTestModuleStartTime="00:04.704"
+			timeWallClock="14:13:36"
+			time="00:04.704"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Device_Name
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.726"
+			timeRelativeToTestModuleStartTime="00:04.726"
+			timeWallClock="14:13:36"
+			time="00:04.726"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsShell.PARTFamilyGroupsScrollViewer' at 817;-15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/container[@automationid='PART_FamilyGroupsScrollViewer']"
+				itempath="container[@automationid='PART_FamilyGroupsScrollViewer']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsShell.PARTFamilyGroupsScrollViewer"
+				id="27e934a3c3744fa3ad3b14b9988cf958"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.234"
+			timeRelativeToTestModuleStartTime="00:06.234"
+			timeWallClock="14:13:38"
+			time="00:06.234"
+			level="Warn"
+			category="Click"
+			errimg="images_Simulate_3cfcb1d7\Simulate_c631362_rxlog.jpg"
+			errthumb="images_Simulate_3cfcb1d7\Simulate_c631362_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="96"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.715"
+			timeRelativeToTestModuleStartTime="00:06.715"
+			timeWallClock="14:13:38"
+			time="00:06.715"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Device_Name'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

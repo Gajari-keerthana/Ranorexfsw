@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.3m"
+		durationms="80360"
+		type="root"
+		rid="a51c5b44131bf2b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/20/2023 2:31:29 PM"
+		timestampiso="2023-10-20T09:01:29"
+		endtime="10/20/2023 2:32:50 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Viewfitting">
+		<detail>
+			Viewfitting
+		</detail>
+		<errormessage>
+			Failed to find item 'LaunchFSWRepository.SmartFit.MenuAutomationIdsViewAutomationIdsCoup'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.137"
+			timeRelativeToTestModuleStartTime="00:15.137"
+			timeWallClock="14:31:44"
+			time="00:15.137"
+			level="Info"
+			category="User"
+			errimg="images_Viewfitt_99fb560d\Viewfitt_99fb560d_0822f5d1_trace.jpg"
+			errthumb="images_Viewfitt_99fb560d\Viewfitt_99fb560d_0822f5d1_trace_thumb.jpg">
+			<message>
+				twocc is not selected
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\viewlist.cs"
+				codeline="63"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.156"
+			timeRelativeToTestModuleStartTime="01:20.156"
+			timeWallClock="14:32:49"
+			time="01:20.156"
+			level="Info"
+			category="User"
+			errimg="images_Viewfitt_99fb560d\Viewfitt_99fb560d_1e1bed69_trace.jpg"
+			errthumb="images_Viewfitt_99fb560d\Viewfitt_99fb560d_1e1bed69_trace_thumb.jpg">
+			<message>
+				Item 'MenuAutomationIdsViewAutomationIdsCoup' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\viewlist.cs"
+				codeline="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.271"
+			timeRelativeToTestModuleStartTime="01:20.271"
+			timeWallClock="14:32:49"
+			time="01:20.271"
+			level="Error"
+			category="Module"
+			errimg="images_Viewfitt_99fb560d\Viewfitt_99fb560d_0b3bfb45_trace.jpg"
+			errthumb="images_Viewfitt_99fb560d\Viewfitt_99fb560d_0b3bfb45_trace_thumb.jpg">
+			<message>
+				Failed to find item 'LaunchFSWRepository.SmartFit.MenuAutomationIdsViewAutomationIdsCoup'.<br/>No element found for path '/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.Coupler_OES']' at step 'menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.Coupler_OES']' after 399 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at LaunchFSW.LaunchFSWRepositoryFolders.SmartFitAppFolder.get_MenuAutomationIdsViewAutomationIdsCoup() in D:\Ranorex\LaunchFSW\LaunchFSW\LaunchFSWRepository.cs:line 939&#13;&#10;   at LaunchFSW.viewlist.setcouplers_randomly() in D:\Ranorex\LaunchFSW\LaunchFSW\viewlist.cs:line 65&#13;&#10;   at LaunchFSW.Viewfitting.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\Viewfitting.cs:line 82&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\viewlist.cs"
+				codeline="65"
+				type="repoitem"
+				path="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.Coupler_OES']"
+				itempath="menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.Coupler_OES']"
+				fullname="LaunchFSWRepository.SmartFit.MenuAutomationIdsViewAutomationIdsCoup"
+				id="06277e6b04424926a6545e27f78423e3"
+				timeout="60000"
+				failedStep="menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.Coupler_OES']"
+				bestPathPrefix=""
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

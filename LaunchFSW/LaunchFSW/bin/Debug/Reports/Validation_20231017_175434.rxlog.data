@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.95s"
+		durationms="5953"
+		type="root"
+		rid="10c5f39b54cc429"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/17/2023 5:54:37 PM"
+		timestampiso="2023-10-17T12:24:37"
+		endtime="10/17/2023 5:54:43 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Validation">
+		<detail>
+			Validation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.516"
+			timeRelativeToTestModuleStartTime="00:04.516"
+			timeWallClock="17:54:41"
+			time="00:04.516"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Smart Launcher') on item 'WindowAutomationIdsShell.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@name='Smart Launcher']"
+				itempath="text[@name='Smart Launcher']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsShell.Text"
+				id="0393172b01ff45f8a86c83e66e183186"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Validation.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.951"
+			timeRelativeToTestModuleStartTime="00:05.951"
+			timeWallClock="17:54:43"
+			time="00:05.951"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'LaunchFSWRepository.WindowAutomationIdsShell.Text' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@name='Smart Launcher']"
+				itempath="text[@name='Smart Launcher']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsShell.Text"
+				id="0393172b01ff45f8a86c83e66e183186"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Validation.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

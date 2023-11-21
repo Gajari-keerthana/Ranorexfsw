@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.5m"
+		durationms="88196"
+		type="root"
+		rid="b28a43f4b439fd8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/20/2023 4:22:41 PM"
+		timestampiso="2023-11-20T10:52:41"
+		endtime="11/20/2023 4:24:10 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Couplergains">
+		<detail>
+			Couplergains
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.796"
+			timeRelativeToTestModuleStartTime="00:03.796"
+			timeWallClock="16:22:45"
+			time="00:03.796"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Directionality.MenuAutomationIdsViewAction' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/menuitem[@automationid='MenuAutomationIds.ViewAction']"
+				itempath="?/?/menuitem[@automationid='MenuAutomationIds.ViewAction']"
+				fullname="LaunchFSWRepository.Directionality.MenuAutomationIdsViewAction"
+				id="7a87dcaafa4147a79a6ab9967893f094"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.294"
+			timeRelativeToTestModuleStartTime="00:08.294"
+			timeWallClock="16:22:50"
+			time="00:08.294"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmartFit.SomeContainer' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container"
+				itempath="menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container"
+				fullname="LaunchFSWRepository.SmartFit.SomeContainer"
+				id="41431212ff1647e996d808a86b4d381c"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.943"
+			timeRelativeToTestModuleStartTime="00:08.943"
+			timeWallClock="16:22:50"
+			time="00:08.943"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmartFit.MenuAutomationIdsViewAutomationIdsCoup1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.InsertionGain']"
+				itempath="menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.InsertionGain']"
+				fullname="LaunchFSWRepository.SmartFit.MenuAutomationIdsViewAutomationIdsCoup1"
+				id="1230175bbb3b4e7a80a6abde14e40479"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.454"
+			timeRelativeToTestModuleStartTime="00:10.454"
+			timeWallClock="16:22:52"
+			time="00:10.454"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Directionality.MenuAutomationIdsViewAction' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/?/?/menuitem[@automationid='MenuAutomationIds.ViewAction']"
+				itempath="?/?/menuitem[@automationid='MenuAutomationIds.ViewAction']"
+				fullname="LaunchFSWRepository.Directionality.MenuAutomationIdsViewAction"
+				id="7a87dcaafa4147a79a6ab9967893f094"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.899"
+			timeRelativeToTestModuleStartTime="00:12.899"
+			timeWallClock="16:22:54"
+			time="00:12.899"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmartFit.SomeContainer' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container"
+				itempath="menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerAction']/container"
+				fullname="LaunchFSWRepository.SmartFit.SomeContainer"
+				id="41431212ff1647e996d808a86b4d381c"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.465"
+			timeRelativeToTestModuleStartTime="00:13.465"
+			timeWallClock="16:22:55"
+			time="00:13.465"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SmartFit.MenuAutomationIdsViewAutomationIdsCoup2' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@automationid='' and @wpfnative='True']/menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.TwoCCGain']"
+				itempath="menuitem[@automationid='MenuAutomationIds.ViewAutomationIds.CouplerActionItemsAutomationIds.TwoCCGain']"
+				fullname="LaunchFSWRepository.SmartFit.MenuAutomationIdsViewAutomationIdsCoup2"
+				id="738dd655994243fc8b5f811815731f97"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.394"
+			timeRelativeToTestModuleStartTime="00:15.394"
+			timeWallClock="16:22:57"
+			time="00:15.394"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Directionality.FittingAutomationIdsSaveAction' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='FittingAutomationIds.SaveAction']"
+				itempath="button[@automationid='FittingAutomationIds.SaveAction']"
+				fullname="LaunchFSWRepository.Directionality.FittingAutomationIdsSaveAction"
+				id="b1dbbe0eb5394bf9b20a3e7c571bf9d8"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.018"
+			timeRelativeToTestModuleStartTime="00:16.018"
+			timeWallClock="16:22:57"
+			time="00:16.018"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.025"
+			timeRelativeToTestModuleStartTime="00:26.025"
+			timeWallClock="16:23:07"
+			time="00:26.025"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Directionality.SaveAutomationIdsPerformSaveAutomationI1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='ReSound Smart Fit 1.17']/button[@automationid='SaveAutomationIds.PerformSaveAutomationIds.ExitAction']"
+				itempath="button[@automationid='SaveAutomationIds.PerformSaveAutomationIds.ExitAction']"
+				fullname="LaunchFSWRepository.Directionality.SaveAutomationIdsPerformSaveAutomationI1"
+				id="c5fe61cbd0844356912e4e214d860563"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="119"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.561"
+			timeRelativeToTestModuleStartTime="00:26.561"
+			timeWallClock="16:23:08"
+			time="00:26.561"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Couplergains.cs"
+				codeline="123"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.660"
+			timeRelativeToTestModuleStartTime="01:03.660"
+			timeWallClock="16:23:45"
+			time="01:03.660"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Test' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\PatientCheck.cs"
+				codeline="42"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.667"
+			timeRelativeToTestModuleStartTime="01:03.667"
+			timeWallClock="16:23:45"
+			time="01:03.667"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'LaunchFSWRepository.Directionality'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="?/?/listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.127.Patient.Test.EditAction']/text[@name='Test']"
+				invertedPath="self::text[@name='Test']/parent::listitem[@automationid='StandAloneAutomationIds.ListAutomationIds.PatientItemsAutomationIds.127.Patient.Test.EditAction']/parent::?/parent::?/parent::*"
+				basePathToCachedFolder="/form[@name='ReSound Smart Fit 1.17']"
+				invertedBasePath="self::form[@name='ReSound Smart Fit 1.17']/parent::host/self::*"
+				AbsoluteBasePath="/form[@name='ReSound Smart Fit 1.17']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\PatientCheck.cs"
+				codeline="42"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:28.191"
+			timeRelativeToTestModuleStartTime="01:28.191"
+			timeWallClock="16:24:10"
+			time="01:28.191"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

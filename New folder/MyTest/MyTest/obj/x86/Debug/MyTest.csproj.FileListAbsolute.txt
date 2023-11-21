@@ -1,0 +1,12 @@
+D:\Ranorex\New folder\MyTest\MyTest\bin\Debug\MyTest.rxtmg
+D:\Ranorex\New folder\MyTest\MyTest\bin\Debug\MyTest.rxtst
+D:\Ranorex\New folder\MyTest\MyTest\bin\Debug\MyTest.exe.config
+D:\Ranorex\New folder\MyTest\MyTest\bin\Debug\MyTest.xml
+D:\Ranorex\New folder\MyTest\MyTest\bin\Debug\MyTest.exe
+D:\Ranorex\New folder\MyTest\MyTest\bin\Debug\MyTest.pdb
+D:\Ranorex\New folder\MyTest\MyTest\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Ranorex\New folder\MyTest\MyTest\obj\x86\Debug\MyTest.csproj.AssemblyReference.cache
+D:\Ranorex\New folder\MyTest\MyTest\obj\x86\Debug\MyTest.csproj.CoreCompileInputs.cache
+D:\Ranorex\New folder\MyTest\MyTest\obj\x86\Debug\MyTest.csproj.CopyComplete
+D:\Ranorex\New folder\MyTest\MyTest\obj\x86\Debug\MyTest.exe
+D:\Ranorex\New folder\MyTest\MyTest\obj\x86\Debug\MyTest.pdb

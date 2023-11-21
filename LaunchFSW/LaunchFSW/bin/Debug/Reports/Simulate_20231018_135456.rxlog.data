@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.31s"
+		durationms="6313"
+		type="root"
+		rid="11b7ca8051455920"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/18/2023 1:54:58 PM"
+		timestampiso="2023-10-18T08:24:58"
+		endtime="10/18/2023 1:55:05 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Simulate">
+		<detail>
+			Simulate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.661"
+			timeRelativeToTestModuleStartTime="00:04.661"
+			timeWallClock="13:55:03"
+			time="00:04.661"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsShell.InstrumentModel' at 46;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/?/?/text[@name='Instrument Model']"
+				itempath="?/?/text[@name='Instrument Model']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsShell.InstrumentModel"
+				id="56f1157d47ea4777ad045c3a7b5ec116"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

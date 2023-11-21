@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5.21s"
+		durationms="5214"
+		type="root"
+		rid="c3769cb9310be43"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/17/2023 2:27:29 PM"
+		timestampiso="2023-10-17T08:57:29"
+		endtime="10/17/2023 2:27:34 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to run application 'yourapp'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.137"
+			timeRelativeToTestModuleStartTime="00:05.137"
+			timeWallClock="14:27:34"
+			time="00:05.137"
+			level="Info"
+			category="Application"
+			errimg="images_Recordin_5af7bfc\Recordin_5af7bfc_a78cc624_trace.jpg"
+			errthumb="images_Recordin_5af7bfc\Recordin_5af7bfc_a78cc624_trace_thumb.jpg">
+			<message>
+				Run application 'yourapp' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.168"
+			timeRelativeToTestModuleStartTime="00:05.168"
+			timeWallClock="14:27:34"
+			time="00:05.168"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_5af7bfc\Recordin_5af7bfc_a78cc624_trace.jpg"
+			errthumb="images_Recordin_5af7bfc\Recordin_5af7bfc_a78cc624_trace_thumb.jpg">
+			<message>
+				Failed to run application 'yourapp'.<br/>The system cannot find the file specified
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized, RunAppFlags runFlags)
+   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   at LaunchFSW.Recording1.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Recording1.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

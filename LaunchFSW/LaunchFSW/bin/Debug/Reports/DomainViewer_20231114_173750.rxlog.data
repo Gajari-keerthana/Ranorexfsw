@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="18.63s"
+		durationms="18629"
+		type="root"
+		rid="15647a3045483917"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/14/2023 5:37:52 PM"
+		timestampiso="2023-11-14T12:07:52"
+		endtime="11/14/2023 5:38:11 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="DomainViewer">
+		<detail>
+			DomainViewer
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.679"
+			timeRelativeToTestModuleStartTime="00:03.679"
+			timeWallClock="17:37:56"
+			time="00:03.679"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'Window.Directionality' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AvailablePrograms']/?/?/treeitem[@automationid='Features']/?/?/text[@name='Directionality']"
+				itempath="tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AvailablePrograms']/?/?/treeitem[@automationid='Features']/?/?/text[@name='Directionality']"
+				fullname="LaunchFSWRepository.Window.Directionality"
+				id="db7e1f6cb1554e468998dfc46421a55b"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\DomainViewer.cs"
+				codeline="131"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.050"
+			timeRelativeToTestModuleStartTime="00:09.050"
+			timeWallClock="17:38:01"
+			time="00:09.050"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'Window.Directionality' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AvailablePrograms']/?/?/treeitem[@automationid='Features']/?/?/text[@name='Directionality']"
+				itempath="tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AvailablePrograms']/?/?/treeitem[@automationid='Features']/?/?/text[@name='Directionality']"
+				fullname="LaunchFSWRepository.Window.Directionality"
+				id="db7e1f6cb1554e468998dfc46421a55b"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\DomainViewer.cs"
+				codeline="135"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

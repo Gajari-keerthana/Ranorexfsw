@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.57s"
+		durationms="12565"
+		type="root"
+		rid="daa0095e7036d0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="10/19/2023 6:30:01 PM"
+		timestampiso="2023-10-19T13:00:01"
+		endtime="10/19/2023 6:30:14 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Simulate">
+		<detail>
+			Simulate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.251"
+			timeRelativeToTestModuleStartTime="00:04.251"
+			timeWallClock="18:30:05"
+			time="00:04.251"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Device_Name
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.271"
+			timeRelativeToTestModuleStartTime="00:04.271"
+			timeWallClock="18:30:05"
+			time="00:04.271"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsShell.PARTEditor' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']/text[@automationid='PART_Editor']"
+				itempath="text[@automationid='PART_Editor']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsShell.PARTEditor"
+				id="55a83cfbd2e741f4bcfcd739888b5aef"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.190"
+			timeRelativeToTestModuleStartTime="00:06.190"
+			timeWallClock="18:30:07"
+			time="00:06.190"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.198"
+			timeRelativeToTestModuleStartTime="00:11.198"
+			timeWallClock="18:30:12"
+			time="00:11.198"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Device_Name'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.568"
+			timeRelativeToTestModuleStartTime="00:11.568"
+			timeWallClock="18:30:13"
+			time="00:11.568"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.877"
+			timeRelativeToTestModuleStartTime="00:11.877"
+			timeWallClock="18:30:13"
+			time="00:11.877"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}' with focus on 'WindowAutomationIdsShell'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']"
+				itempath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsShell.Self"
+				id="9a7a3d655cbd4e5a954dc974fef3dab7"
+				timeout="30000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="109"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.065"
+			timeRelativeToTestModuleStartTime="00:12.065"
+			timeWallClock="18:30:13"
+			time="00:12.065"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="114"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.374"
+			timeRelativeToTestModuleStartTime="00:12.374"
+			timeWallClock="18:30:13"
+			time="00:12.374"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Enter}' with focus on 'WindowAutomationIdsShell'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']"
+				itempath="/form[@name='Smart Launcher' and @classname='Window' and @orientation='None']"
+				fullname="LaunchFSWRepository.WindowAutomationIdsShell.Self"
+				id="9a7a3d655cbd4e5a954dc974fef3dab7"
+				timeout="30000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Simulate.cs"
+				codeline="117"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

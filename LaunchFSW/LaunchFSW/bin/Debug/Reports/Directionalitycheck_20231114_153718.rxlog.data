@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="18.95s"
+		durationms="18951"
+		type="root"
+		rid="18a1d835fad16aad"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/14/2023 3:37:20 PM"
+		timestampiso="2023-11-14T10:07:20"
+		endtime="11/14/2023 3:37:39 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Directionalitycheck">
+		<detail>
+			Directionalitycheck
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.675"
+			timeRelativeToTestModuleStartTime="00:03.675"
+			timeWallClock="15:37:24"
+			time="00:03.675"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Window.Expander' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+				itempath="tree[@automationid='DomainTreeView']/treeitem[@name='Active Product Left']/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander"
+				id="ec9fa989101f4b48854143417c6dc3e1"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.062"
+			timeRelativeToTestModuleStartTime="00:06.062"
+			timeWallClock="15:37:26"
+			time="00:06.062"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Window.Expander5' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']//treeitem[@automationid='AllPrograms']/button[@automationid='Expander']"
+				itempath=".//treeitem[@automationid='AllPrograms']/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander5"
+				id="076905ed4b9d463c87a4dd3695c3052f"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.831"
+			timeRelativeToTestModuleStartTime="00:07.831"
+			timeWallClock="15:37:28"
+			time="00:07.831"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Window.Expander6' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AllPrograms']/treeitem[1]/button[@automationid='Expander']"
+				itempath="tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AllPrograms']/treeitem[1]/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander6"
+				id="d3fdd7626f674a3a9e163bb19a874906"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.515"
+			timeRelativeToTestModuleStartTime="00:09.515"
+			timeWallClock="15:37:30"
+			time="00:09.515"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'Window.Expander7' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']//treeitem[@automationid='AllPrograms']/?/?/treeitem[@automationid='Features']/button[@automationid='Expander']"
+				itempath=".//treeitem[@automationid='AllPrograms']/?/?/treeitem[@automationid='Features']/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander7"
+				id="5bc3cf5195ac45bb813e7ec0827e84b2"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="103"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.456"
+			timeRelativeToTestModuleStartTime="00:12.456"
+			timeWallClock="15:37:33"
+			time="00:12.456"
+			level="Info"
+			category="Mouse"
+			errimg="images_Directio_a0fc27cd\Directio_a0fc27cd_7ed972f8_trace.jpg"
+			errthumb="images_Directio_a0fc27cd\Directio_a0fc27cd_7ed972f8_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Window.Expander7' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']//treeitem[@automationid='AllPrograms']/?/?/treeitem[@automationid='Features']/button[@automationid='Expander']"
+				itempath=".//treeitem[@automationid='AllPrograms']/?/?/treeitem[@automationid='Features']/button[@automationid='Expander']"
+				fullname="LaunchFSWRepository.Window.Expander7"
+				id="5bc3cf5195ac45bb813e7ec0827e84b2"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="107"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.586"
+			timeRelativeToTestModuleStartTime="00:14.586"
+			timeWallClock="15:37:35"
+			time="00:14.586"
+			level="Info"
+			category="Mouse"
+			errimg="images_Directio_a0fc27cd\Directio_a0fc27cd_e79f6543_trace.jpg"
+			errthumb="images_Directio_a0fc27cd\Directio_a0fc27cd_e79f6543_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Window.Expander8' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@orientation='None' and @automationid='']/tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AllPrograms']/?/?/treeitem[@automationid='Features']/?/?/button[@classname='Button' and @orientation='None' and @iscontentelement='True']"
+				itempath="tree[@automationid='DomainTreeView']/?/?/treeitem[@automationid='AllPrograms']/?/?/treeitem[@automationid='Features']/?/?/button[@classname='Button' and @orientation='None' and @iscontentelement='True']"
+				fullname="LaunchFSWRepository.Window.Expander8"
+				id="d723a4a4a08a455e9435cf4ba1eb9201"
+				timeout="60000"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="111"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.883"
+			timeRelativeToTestModuleStartTime="00:18.883"
+			timeWallClock="15:37:39"
+			time="00:18.883"
+			level="Error"
+			category="Module"
+			errimg="images_Directio_a0fc27cd\Directio_a0fc27cd_76f9e364_trace.jpg"
+			errthumb="images_Directio_a0fc27cd\Directio_a0fc27cd_76f9e364_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click()
+   at LaunchFSW.Directionalitycheck.Ranorex.Core.Testing.ITestModule.Run() in D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs:line 112
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Ranorex\LaunchFSW\LaunchFSW\Directionalitycheck.cs"
+				codeline="112"
+				loglvl="Error"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

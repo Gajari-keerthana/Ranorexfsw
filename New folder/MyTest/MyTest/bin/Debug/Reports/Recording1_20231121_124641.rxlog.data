@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="15.05s"
+		durationms="15054"
+		type="root"
+		rid="172dc6f4a42a60f6"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="I-Ray"
+		rxversion="10.5.1.0"
+		host="IRAYSERVER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="11/21/2023 12:46:42 PM"
+		timestampiso="2023-11-21T07:16:42"
+		endtime="11/21/2023 12:46:57 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.318"
+			timeRelativeToTestModuleStartTime="00:03.318"
+			timeWallClock="12:46:45"
+			time="00:03.318"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>First_Name, FirstName, Last_Name
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.339"
+			timeRelativeToTestModuleStartTime="00:03.339"
+			timeWallClock="12:46:45"
+			time="00:03.339"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\ReSound\SmartFit\SmartFitSA.exe' with arguments 'C:\Program Files (x86)\ReSound\SmartFit' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="121"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.358"
+			timeRelativeToTestModuleStartTime="00:03.358"
+			timeWallClock="12:46:45"
+			time="00:03.358"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="125"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.667"
+			timeRelativeToTestModuleStartTime="00:03.667"
+			timeWallClock="12:46:46"
+			time="00:03.667"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.StandAloneAutomationIdsAdd2Action' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='WindowAutomationIds.StandAloneShell']/?/?/button[@automationid='StandAloneAutomationIds.Add2Action']"
+				itempath="?/?/button[@automationid='StandAloneAutomationIds.Add2Action']"
+				fullname="MyTestRepository.WindowAutomationIdsStandAloneShell.StandAloneAutomationIdsAdd2Action"
+				id="609b3f1e0a8e4e89aeb9d6ae2fa1971a"
+				timeout="60000"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="128"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.309"
+			timeRelativeToTestModuleStartTime="00:12.309"
+			timeWallClock="12:46:54"
+			time="00:12.309"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="132"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.617"
+			timeRelativeToTestModuleStartTime="00:12.617"
+			timeWallClock="12:46:55"
+			time="00:12.617"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.StandAloneAutomationIdsProfileAutomatio' at 1;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/container[1]//text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.FirstNameField']"
+				itempath="container[@caption='']/list/container[1]//text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.FirstNameField']"
+				fullname="MyTestRepository.WindowAutomationIdsStandAloneShell.StandAloneAutomationIdsProfileAutomatio"
+				id="1346d8031a574671aa84b7965599f279"
+				timeout="60000"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="135"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.560"
+			timeRelativeToTestModuleStartTime="00:13.560"
+			timeWallClock="12:46:55"
+			time="00:13.560"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="139"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.866"
+			timeRelativeToTestModuleStartTime="00:13.866"
+			timeWallClock="12:46:56"
+			time="00:13.866"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$First_Name'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="142"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.040"
+			timeRelativeToTestModuleStartTime="00:14.040"
+			timeWallClock="12:46:56"
+			time="00:14.040"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WindowAutomationIdsStandAloneShell.StandAloneAutomationIdsProfileAutomatio1' at 4;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='WindowAutomationIds.StandAloneShell']/container[@caption='']/list/container[1]//text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.LastNameField']"
+				itempath="container[@caption='']/list/container[1]//text[@automationid='StandAloneAutomationIds.ProfileAutomationIds.LastNameField']"
+				fullname="MyTestRepository.WindowAutomationIdsStandAloneShell.StandAloneAutomationIdsProfileAutomatio1"
+				id="95adefa739da490fbd2a057672504eff"
+				timeout="60000"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="146"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.879"
+			timeRelativeToTestModuleStartTime="00:14.879"
+			timeWallClock="12:46:57"
+			time="00:14.879"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Last_Name'.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="D:\Ranorex\New folder\MyTest\MyTest\Recording1.cs"
+				codeline="150"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
